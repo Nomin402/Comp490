@@ -1,0 +1,1990 @@
+[
+  {
+    "pipeline": "sparse",
+    "run_id": "latest_default",
+    "topic_id": "181",
+    "topic": "axonal injury on brain mri",
+    "narrative": "During an ED visit after a car accident, the patient was told an axonal injury was detected. The patient is concerned it will affect his health.",
+    "question": "what is axonal injury on my mri brain report; is it a concern?",
+    "final_answer_text": "Axonal injury on your MRI brain report indicates damage to the axons, which are the long fibers that conduct electrical signals in your brain, often detected through advanced imaging techniques like diffusion tensor imaging (DTI) . This injury, particularly in the context of a car accident, can be associated with cognitive and functional impairments, and its presence is a significant finding . Studies have shown that axonal injury can occur even when conventional MRI results are normal, highlighting the importance of these advanced imaging methods . The clinical significance of axonal injury varies, with some patients recovering fully and others experiencing long-term effects, including a higher risk for dementia . Given the potential for significant health impacts, it is advisable to discuss the implications of this finding with your healthcare provider for personalized guidance and monitoring .",
+    "final_answer_with_citations": "Axonal injury on your MRI brain report indicates damage to the axons, which are the long fibers that conduct electrical signals in your brain, often detected through advanced imaging techniques like diffusion tensor imaging (DTI) . [29209266,17117192,19772114] This injury, particularly in the context of a car accident, can be associated with cognitive and functional impairments, and its presence is a significant finding . [29209266,38771065,19772114] Studies have shown that axonal injury can occur even when conventional MRI results are normal, highlighting the importance of these advanced imaging methods . [9389018,31562294,35263907] The clinical significance of axonal injury varies, with some patients recovering fully and others experiencing long-term effects, including a higher risk for dementia . [38771065,9389018,33257929] Given the potential for significant health impacts, it is advisable to discuss the implications of this finding with your healthcare provider for personalized guidance and monitoring . [29209266,33257929,31562294]",
+    "response_sentences": [
+      {
+        "text": "Axonal injury on your MRI brain report indicates damage to the axons, which are the long fibers that conduct electrical signals in your brain, often detected through advanced imaging techniques like diffusion tensor imaging (DTI) .",
+        "citations": [
+          29209266,
+          17117192,
+          19772114
+        ]
+      },
+      {
+        "text": "This injury, particularly in the context of a car accident, can be associated with cognitive and functional impairments, and its presence is a significant finding .",
+        "citations": [
+          29209266,
+          38771065,
+          19772114
+        ]
+      },
+      {
+        "text": "Studies have shown that axonal injury can occur even when conventional MRI results are normal, highlighting the importance of these advanced imaging methods .",
+        "citations": [
+          9389018,
+          31562294,
+          35263907
+        ]
+      },
+      {
+        "text": "The clinical significance of axonal injury varies, with some patients recovering fully and others experiencing long-term effects, including a higher risk for dementia .",
+        "citations": [
+          38771065,
+          9389018,
+          33257929
+        ]
+      },
+      {
+        "text": "Given the potential for significant health impacts, it is advisable to discuss the implications of this finding with your healthcare provider for personalized guidance and monitoring .",
+        "citations": [
+          29209266,
+          33257929,
+          31562294
+        ]
+      }
+    ],
+    "references": [
+      "29209266",
+      "17117192",
+      "19772114",
+      "38771065",
+      "9389018",
+      "31562294",
+      "35263907",
+      "33257929"
+    ]
+  },
+  {
+    "pipeline": "sparse",
+    "run_id": "latest_default",
+    "topic_id": "182",
+    "topic": "uti diagnostic tests",
+    "narrative": "A patient with discomfort during urination and flank pain is on treatment for uti for three days, but doesn't feel better the patient is asking the doctor which tests can definitely confirm a uti infection.",
+    "question": "what tests might be done to verify I have a uti?",
+    "final_answer_text": "To confirm a urinary tract infection (UTI) in a patient experiencing discomfort during urination and flank pain, despite three days of treatment, specific diagnostic tests such as quantitative bacterial culture and urinalysis are indicated . These tests can definitively identify significant bacteriuria, which is crucial for confirming UTI . Urinalysis, particularly for the presence of pus cells and microbial growth, provides immediate insight, although it lacks the specificity to confirm the infection alone . In cases of persistent symptoms, additional tests like voiding history, ultrasound, and micturating cytourethrogram under antibiotic cover are recommended . While rapid dipstick tests for nitrite and leucocyte esterase can be used for initial screening, they are not definitive and should be complemented with laboratory examination . Imaging studies, such as ultrasound and voiding cystourethrography, are useful for detecting anatomic abnormalities and vesicoureteral reflux, especially in pediatric patients . Ultimately, bacterial culture remains the gold standard for diagnosing UTI, providing both the presence and species of causative bacteria .",
+    "final_answer_with_citations": "To confirm a urinary tract infection (UTI) in a patient experiencing discomfort during urination and flank pain, despite three days of treatment, specific diagnostic tests such as quantitative bacterial culture and urinalysis are indicated . [9487613,6996299,3658502] These tests can definitively identify significant bacteriuria, which is crucial for confirming UTI . [6996299,3658502] Urinalysis, particularly for the presence of pus cells and microbial growth, provides immediate insight, although it lacks the specificity to confirm the infection alone . [15630321,29556674] In cases of persistent symptoms, additional tests like voiding history, ultrasound, and micturating cytourethrogram under antibiotic cover are recommended . [15630321,3880909] While rapid dipstick tests for nitrite and leucocyte esterase can be used for initial screening, they are not definitive and should be complemented with laboratory examination . [10436538,35839369,3045996] Imaging studies, such as ultrasound and voiding cystourethrography, are useful for detecting anatomic abnormalities and vesicoureteral reflux, especially in pediatric patients . [3880909,1911112] Ultimately, bacterial culture remains the gold standard for diagnosing UTI, providing both the presence and species of causative bacteria . [6996299,3658502,16532350]",
+    "response_sentences": [
+      {
+        "text": "To confirm a urinary tract infection (UTI) in a patient experiencing discomfort during urination and flank pain, despite three days of treatment, specific diagnostic tests such as quantitative bacterial culture and urinalysis are indicated .",
+        "citations": [
+          9487613,
+          6996299,
+          3658502
+        ]
+      },
+      {
+        "text": "These tests can definitively identify significant bacteriuria, which is crucial for confirming UTI .",
+        "citations": [
+          6996299,
+          3658502
+        ]
+      },
+      {
+        "text": "Urinalysis, particularly for the presence of pus cells and microbial growth, provides immediate insight, although it lacks the specificity to confirm the infection alone .",
+        "citations": [
+          15630321,
+          29556674
+        ]
+      },
+      {
+        "text": "In cases of persistent symptoms, additional tests like voiding history, ultrasound, and micturating cytourethrogram under antibiotic cover are recommended .",
+        "citations": [
+          15630321,
+          3880909
+        ]
+      },
+      {
+        "text": "While rapid dipstick tests for nitrite and leucocyte esterase can be used for initial screening, they are not definitive and should be complemented with laboratory examination .",
+        "citations": [
+          10436538,
+          35839369,
+          3045996
+        ]
+      },
+      {
+        "text": "Imaging studies, such as ultrasound and voiding cystourethrography, are useful for detecting anatomic abnormalities and vesicoureteral reflux, especially in pediatric patients .",
+        "citations": [
+          3880909,
+          1911112
+        ]
+      },
+      {
+        "text": "Ultimately, bacterial culture remains the gold standard for diagnosing UTI, providing both the presence and species of causative bacteria .",
+        "citations": [
+          6996299,
+          3658502,
+          16532350
+        ]
+      }
+    ],
+    "references": [
+      "9487613",
+      "6996299",
+      "3658502",
+      "15630321",
+      "29556674",
+      "3880909",
+      "10436538",
+      "35839369",
+      "3045996",
+      "1911112",
+      "16532350"
+    ]
+  },
+  {
+    "pipeline": "sparse",
+    "run_id": "latest_default",
+    "topic_id": "183",
+    "topic": "accidental gabapentin ingestion",
+    "narrative": "A 45-year old woman has accidentally taken a gabapentin pill out of her spouse's pillbox instead of taking a similar looking metformin pill out of her own. She is feeling fatigued and weak. She is worried this is caused by gabapentin and wants to know if she needs to go to ER.",
+    "question": "what if i take a gabapentin by accident?",
+    "final_answer_text": "Accidental ingestion of gabapentin, while generally benign, can cause symptoms such as fatigue and weakness , which align with the 45-year-old woman's current symptoms. Gabapentin is well tolerated with transient and mild to moderate adverse events in most patients, and serious adverse events are rare . However, accidental ingestion can lead to symptoms like fatigue and weakness, although specific data on accidental ingestion in non-substance use disorder patients are limited . It is important to note that while gabapentin is not especially harmful or lethal compared to other psychotropic drugs, it can cause significant symptoms in some cases . Therefore, while the woman's symptoms are concerning, they are not necessarily indicative of a severe condition requiring an emergency room visit, but she should monitor her symptoms and consider consulting her healthcare provider for further evaluation .",
+    "final_answer_with_citations": "Accidental ingestion of gabapentin, while generally benign, can cause symptoms such as fatigue and weakness , which align with the 45-year-old woman's current symptoms. [28348186,34396549] Gabapentin is well tolerated with transient and mild to moderate adverse events in most patients, and serious adverse events are rare . [8022537] However, accidental ingestion can lead to symptoms like fatigue and weakness, although specific data on accidental ingestion in non-substance use disorder patients are limited . [24549170] It is important to note that while gabapentin is not especially harmful or lethal compared to other psychotropic drugs, it can cause significant symptoms in some cases . [24549170] Therefore, while the woman's symptoms are concerning, they are not necessarily indicative of a severe condition requiring an emergency room visit, but she should monitor her symptoms and consider consulting her healthcare provider for further evaluation . [8022537,24549170]",
+    "response_sentences": [
+      {
+        "text": "Accidental ingestion of gabapentin, while generally benign, can cause symptoms such as fatigue and weakness , which align with the 45-year-old woman's current symptoms.",
+        "citations": [
+          28348186,
+          34396549
+        ]
+      },
+      {
+        "text": "Gabapentin is well tolerated with transient and mild to moderate adverse events in most patients, and serious adverse events are rare .",
+        "citations": [
+          8022537
+        ]
+      },
+      {
+        "text": "However, accidental ingestion can lead to symptoms like fatigue and weakness, although specific data on accidental ingestion in non-substance use disorder patients are limited .",
+        "citations": [
+          24549170
+        ]
+      },
+      {
+        "text": "It is important to note that while gabapentin is not especially harmful or lethal compared to other psychotropic drugs, it can cause significant symptoms in some cases .",
+        "citations": [
+          24549170
+        ]
+      },
+      {
+        "text": "Therefore, while the woman's symptoms are concerning, they are not necessarily indicative of a severe condition requiring an emergency room visit, but she should monitor her symptoms and consider consulting her healthcare provider for further evaluation .",
+        "citations": [
+          8022537,
+          24549170
+        ]
+      }
+    ],
+    "references": [
+      "28348186",
+      "34396549",
+      "8022537",
+      "24549170"
+    ]
+  },
+  {
+    "pipeline": "sparse",
+    "run_id": "latest_default",
+    "topic_id": "184",
+    "topic": "hospitalizations for sepsis",
+    "narrative": "The patient's provider suspects the patient has sepsis and recommends hospitalization for diagnosis confirmation and treatment. The patient has urgent deadlines and wants to know if hospitalization is absolutely necessary. Other than extreme thirst, the patient feels fine and has no problems breathing or stomach problems.",
+    "question": "if you have sepsis and have no problem breathing or stomach problems and the only thing is extreme thirst does this require hospitalization?",
+    "final_answer_text": "Sepsis is a clinical syndrome leading to organ failure and increased mortality, emphasizing the importance of timely hospitalization for proper diagnosis and treatment . The case of Lucy, who developed septic shock following pyrexia, stomach pain, and diarrhea, underscores the severity of sepsis and the critical need for intensive care . Although the patient in question does not exhibit respiratory distress or gastrointestinal symptoms, the potential for rapid deterioration necessitates a thorough evaluation in a hospital setting . Hospitalization allows for the confirmation of sepsis and timely intervention, which are crucial for improving outcomes . Therefore, despite the absence of other severe symptoms, hospitalization is recommended to ensure comprehensive care and early intervention .",
+    "final_answer_with_citations": "Sepsis is a clinical syndrome leading to organ failure and increased mortality, emphasizing the importance of timely hospitalization for proper diagnosis and treatment . [21972692] The case of Lucy, who developed septic shock following pyrexia, stomach pain, and diarrhea, underscores the severity of sepsis and the critical need for intensive care . [19853452] Although the patient in question does not exhibit respiratory distress or gastrointestinal symptoms, the potential for rapid deterioration necessitates a thorough evaluation in a hospital setting . [38991525] Hospitalization allows for the confirmation of sepsis and timely intervention, which are crucial for improving outcomes . [8255025] Therefore, despite the absence of other severe symptoms, hospitalization is recommended to ensure comprehensive care and early intervention . [21972692]",
+    "response_sentences": [
+      {
+        "text": "Sepsis is a clinical syndrome leading to organ failure and increased mortality, emphasizing the importance of timely hospitalization for proper diagnosis and treatment .",
+        "citations": [
+          21972692
+        ]
+      },
+      {
+        "text": "The case of Lucy, who developed septic shock following pyrexia, stomach pain, and diarrhea, underscores the severity of sepsis and the critical need for intensive care .",
+        "citations": [
+          19853452
+        ]
+      },
+      {
+        "text": "Although the patient in question does not exhibit respiratory distress or gastrointestinal symptoms, the potential for rapid deterioration necessitates a thorough evaluation in a hospital setting .",
+        "citations": [
+          38991525
+        ]
+      },
+      {
+        "text": "Hospitalization allows for the confirmation of sepsis and timely intervention, which are crucial for improving outcomes .",
+        "citations": [
+          8255025
+        ]
+      },
+      {
+        "text": "Therefore, despite the absence of other severe symptoms, hospitalization is recommended to ensure comprehensive care and early intervention .",
+        "citations": [
+          21972692
+        ]
+      }
+    ],
+    "references": [
+      "21972692",
+      "19853452",
+      "38991525",
+      "8255025"
+    ]
+  },
+  {
+    "pipeline": "sparse",
+    "run_id": "latest_default",
+    "topic_id": "185",
+    "topic": "treatment for grease burn",
+    "narrative": "A teenager's arm and foot were splashed with very hot kitchen grease. After first aid for burns, the parents are looking for the best treatments to reduce pain and prevent infection and scars.",
+    "question": "what are the treatment options for a burn patient after a kitchen grease fire?",
+    "final_answer_text": "For a teenager with burns from kitchen grease, initial care involves cooling the burn under cold water for at least 10 minutes to reduce pain and prevent further tissue damage . Effective treatments include the use of polymeric hydrogels for minor burns, which adhere to tissue, absorb exudate, and protect against infection, facilitating easier dressing changes . For deeper burns, immediate hospital admission may be necessary, as evidenced by a study where 18 out of 32 patients with chip-pan fire burns required operative intervention . Additionally, vitamin B and zinc supplements along with a 0.02% topical capsaicin rinse have been shown to significantly reduce pain levels in burn patients . Early surgical intervention, such as skin grafting, is crucial for severe cases, with autologous split-thickness skin grafts being optimal for extensive, full-thickness burns . Comprehensive care, including nutritional support, is vital for wound healing, as demonstrated by a study that found immediate nutritional interventions decreased catabolism and improved metabolic determinants of wound healing . Despite advancements, the prognosis can be challenging, with potential complications including hypertrophic scar contracture and infection, underscoring the importance of multidisciplinary teamwork in burn management .",
+    "final_answer_with_citations": "For a teenager with burns from kitchen grease, initial care involves cooling the burn under cold water for at least 10 minutes to reduce pain and prevent further tissue damage . [2911540] Effective treatments include the use of polymeric hydrogels for minor burns, which adhere to tissue, absorb exudate, and protect against infection, facilitating easier dressing changes . [36518878] For deeper burns, immediate hospital admission may be necessary, as evidenced by a study where 18 out of 32 patients with chip-pan fire burns required operative intervention . [8634124] Additionally, vitamin B and zinc supplements along with a 0.02% topical capsaicin rinse have been shown to significantly reduce pain levels in burn patients . [33920654] Early surgical intervention, such as skin grafting, is crucial for severe cases, with autologous split-thickness skin grafts being optimal for extensive, full-thickness burns . [34582024] Comprehensive care, including nutritional support, is vital for wound healing, as demonstrated by a study that found immediate nutritional interventions decreased catabolism and improved metabolic determinants of wound healing . [21991063] Despite advancements, the prognosis can be challenging, with potential complications including hypertrophic scar contracture and infection, underscoring the importance of multidisciplinary teamwork in burn management . [26813057]",
+    "response_sentences": [
+      {
+        "text": "For a teenager with burns from kitchen grease, initial care involves cooling the burn under cold water for at least 10 minutes to reduce pain and prevent further tissue damage .",
+        "citations": [
+          2911540
+        ]
+      },
+      {
+        "text": "Effective treatments include the use of polymeric hydrogels for minor burns, which adhere to tissue, absorb exudate, and protect against infection, facilitating easier dressing changes .",
+        "citations": [
+          36518878
+        ]
+      },
+      {
+        "text": "For deeper burns, immediate hospital admission may be necessary, as evidenced by a study where 18 out of 32 patients with chip-pan fire burns required operative intervention .",
+        "citations": [
+          8634124
+        ]
+      },
+      {
+        "text": "Additionally, vitamin B and zinc supplements along with a 0.02% topical capsaicin rinse have been shown to significantly reduce pain levels in burn patients .",
+        "citations": [
+          33920654
+        ]
+      },
+      {
+        "text": "Early surgical intervention, such as skin grafting, is crucial for severe cases, with autologous split-thickness skin grafts being optimal for extensive, full-thickness burns .",
+        "citations": [
+          34582024
+        ]
+      },
+      {
+        "text": "Comprehensive care, including nutritional support, is vital for wound healing, as demonstrated by a study that found immediate nutritional interventions decreased catabolism and improved metabolic determinants of wound healing .",
+        "citations": [
+          21991063
+        ]
+      },
+      {
+        "text": "Despite advancements, the prognosis can be challenging, with potential complications including hypertrophic scar contracture and infection, underscoring the importance of multidisciplinary teamwork in burn management .",
+        "citations": [
+          26813057
+        ]
+      }
+    ],
+    "references": [
+      "2911540",
+      "36518878",
+      "8634124",
+      "33920654",
+      "34582024",
+      "21991063",
+      "26813057"
+    ]
+  },
+  {
+    "pipeline": "sparse",
+    "run_id": "latest_default",
+    "topic_id": "186",
+    "topic": "pulmonary arteriovenous malformation",
+    "narrative": "Patient with mild shortness of breath had pulmonary arteriography that revealed a pulmonary arteriovenous malformation. The patient looks for information on risks associated with the condition and prevention of complications.",
+    "question": "how bad is an av malformation?",
+    "final_answer_text": "Pulmonary arteriovenous malformation (PAVM) poses significant clinical risks, including cerebral thromboembolism, abscess, and pulmonary hemorrhage . The condition is particularly severe in patients with hereditary hemorrhagic telangiectasia (HHT), where it is associated with considerable morbidity and mortality, affecting over 50% of these individuals . Studies have shown that patients with diffuse PAVMs have a 10% risk of stroke, with an odds ratio (OR) of 10.0 (95% CI 3.2-31.4, p < 0.001) compared to those without PAVMs . Treatment options such as coil embolization and detachable balloons are effective, with a high success rate in managing multiple AVMs . However, complications like branch retinal artery occlusion can occur during embolic treatment , underscoring the need for careful management. Early diagnosis and appropriate intervention are crucial to prevent serious complications, as demonstrated by successful case reports of endovascular embolization leading to clinical improvement . Despite these advancements, the risk of hemorrhage and other complications remains, particularly in cases of diffuse PAVMs . Prognosis can be favorable with timely and effective treatment, highlighting the importance of regular screening and multidisciplinary management .",
+    "final_answer_with_citations": "Pulmonary arteriovenous malformation (PAVM) poses significant clinical risks, including cerebral thromboembolism, abscess, and pulmonary hemorrhage . [17397589] The condition is particularly severe in patients with hereditary hemorrhagic telangiectasia (HHT), where it is associated with considerable morbidity and mortality, affecting over 50% of these individuals . [16969571] Studies have shown that patients with diffuse PAVMs have a 10% risk of stroke, with an odds ratio (OR) of 10.0 (95% CI 3.2-31.4, p < 0.001) compared to those without PAVMs . [10631195] Treatment options such as coil embolization and detachable balloons are effective, with a high success rate in managing multiple AVMs . [19303485,26528389] However, complications like branch retinal artery occlusion can occur during embolic treatment , underscoring the need for careful management. [22029972] Early diagnosis and appropriate intervention are crucial to prevent serious complications, as demonstrated by successful case reports of endovascular embolization leading to clinical improvement . [29359613,30627254] Despite these advancements, the risk of hemorrhage and other complications remains, particularly in cases of diffuse PAVMs . [17397589,9725455,37954517] Prognosis can be favorable with timely and effective treatment, highlighting the importance of regular screening and multidisciplinary management . [16969571,32384926,26528389]",
+    "response_sentences": [
+      {
+        "text": "Pulmonary arteriovenous malformation (PAVM) poses significant clinical risks, including cerebral thromboembolism, abscess, and pulmonary hemorrhage .",
+        "citations": [
+          17397589
+        ]
+      },
+      {
+        "text": "The condition is particularly severe in patients with hereditary hemorrhagic telangiectasia (HHT), where it is associated with considerable morbidity and mortality, affecting over 50% of these individuals .",
+        "citations": [
+          16969571
+        ]
+      },
+      {
+        "text": "Studies have shown that patients with diffuse PAVMs have a 10% risk of stroke, with an odds ratio (OR) of 10.0 (95% CI 3.2-31.4, p < 0.001) compared to those without PAVMs .",
+        "citations": [
+          10631195
+        ]
+      },
+      {
+        "text": "Treatment options such as coil embolization and detachable balloons are effective, with a high success rate in managing multiple AVMs .",
+        "citations": [
+          19303485,
+          26528389
+        ]
+      },
+      {
+        "text": "However, complications like branch retinal artery occlusion can occur during embolic treatment , underscoring the need for careful management.",
+        "citations": [
+          22029972
+        ]
+      },
+      {
+        "text": "Early diagnosis and appropriate intervention are crucial to prevent serious complications, as demonstrated by successful case reports of endovascular embolization leading to clinical improvement .",
+        "citations": [
+          29359613,
+          30627254
+        ]
+      },
+      {
+        "text": "Despite these advancements, the risk of hemorrhage and other complications remains, particularly in cases of diffuse PAVMs .",
+        "citations": [
+          17397589,
+          9725455,
+          37954517
+        ]
+      },
+      {
+        "text": "Prognosis can be favorable with timely and effective treatment, highlighting the importance of regular screening and multidisciplinary management .",
+        "citations": [
+          16969571,
+          32384926,
+          26528389
+        ]
+      }
+    ],
+    "references": [
+      "17397589",
+      "16969571",
+      "10631195",
+      "19303485",
+      "26528389",
+      "22029972",
+      "29359613",
+      "30627254",
+      "9725455",
+      "37954517",
+      "32384926"
+    ]
+  },
+  {
+    "pipeline": "sparse",
+    "run_id": "latest_default",
+    "topic_id": "187",
+    "topic": "genetically modified foods",
+    "narrative": "The patient has heard that genetically modified foods are bad for health. She is concerned consuming genetically modified foods can cause health problems.",
+    "question": "why are genetically modified foods bad?",
+    "final_answer_text": "Despite concerns about the potential health risks of genetically modified (GM) foods, numerous studies and regulatory reviews indicate that there is no direct evidence linking GM foods to adverse health effects . For instance, a five-generation study on rats consuming genetically modified potatoes found no adverse effects on health parameters such as body weight, food consumption, or reproductive performance . Similarly, a review of 24 studies on GM feed in livestock found no consistent changes in health parameters, with insufficient evidence to suggest harm . Regulatory bodies around the world, including the European Union and international bodies, play a crucial role in ensuring the safety of GM crops and foods through rigorous safety assessments . These assessments include gene discovery, line selection, and pre-commercialization stages, ensuring that GM foods are as safe as conventional foods . While there is public concern and some studies suggest potential risks, such as allergenicity or environmental impacts, the evidence does not support the notion that GM foods are inherently harmful . For example, studies show that \"Round-up ready\" soya flour has no different allergenic potential compared to natural soya flour , and no biotech proteins in GM foods have been documented to cause allergic reactions . Overall, while concerns remain, the current scientific consensus is that GM foods are not more harmful than traditional foods, and the benefits of GM foods, such as improved nutritional quality and pest resistance, likely outweigh the risks .",
+    "final_answer_with_citations": "Despite concerns about the potential health risks of genetically modified (GM) foods, numerous studies and regulatory reviews indicate that there is no direct evidence linking GM foods to adverse health effects . [38371681,19265878,32725215] For instance, a five-generation study on rats consuming genetically modified potatoes found no adverse effects on health parameters such as body weight, food consumption, or reproductive performance . [16326439] Similarly, a review of 24 studies on GM feed in livestock found no consistent changes in health parameters, with insufficient evidence to suggest harm . [29680271] Regulatory bodies around the world, including the European Union and international bodies, play a crucial role in ensuring the safety of GM crops and foods through rigorous safety assessments . [12508467,19265878,15378169] These assessments include gene discovery, line selection, and pre-commercialization stages, ensuring that GM foods are as safe as conventional foods . [19265878] While there is public concern and some studies suggest potential risks, such as allergenicity or environmental impacts, the evidence does not support the notion that GM foods are inherently harmful . [12653625,15123383,23009001] For example, studies show that \"Round-up ready\" soya flour has no different allergenic potential compared to natural soya flour , and no biotech proteins in GM foods have been documented to cause allergic reactions . [10321121,15813800] Overall, while concerns remain, the current scientific consensus is that GM foods are not more harmful than traditional foods, and the benefits of GM foods, such as improved nutritional quality and pest resistance, likely outweigh the risks . [19579682,12126801,14538107]",
+    "response_sentences": [
+      {
+        "text": "Despite concerns about the potential health risks of genetically modified (GM) foods, numerous studies and regulatory reviews indicate that there is no direct evidence linking GM foods to adverse health effects .",
+        "citations": [
+          38371681,
+          19265878,
+          32725215
+        ]
+      },
+      {
+        "text": "For instance, a five-generation study on rats consuming genetically modified potatoes found no adverse effects on health parameters such as body weight, food consumption, or reproductive performance .",
+        "citations": [
+          16326439
+        ]
+      },
+      {
+        "text": "Similarly, a review of 24 studies on GM feed in livestock found no consistent changes in health parameters, with insufficient evidence to suggest harm .",
+        "citations": [
+          29680271
+        ]
+      },
+      {
+        "text": "Regulatory bodies around the world, including the European Union and international bodies, play a crucial role in ensuring the safety of GM crops and foods through rigorous safety assessments .",
+        "citations": [
+          12508467,
+          19265878,
+          15378169
+        ]
+      },
+      {
+        "text": "These assessments include gene discovery, line selection, and pre-commercialization stages, ensuring that GM foods are as safe as conventional foods .",
+        "citations": [
+          19265878
+        ]
+      },
+      {
+        "text": "While there is public concern and some studies suggest potential risks, such as allergenicity or environmental impacts, the evidence does not support the notion that GM foods are inherently harmful .",
+        "citations": [
+          12653625,
+          15123383,
+          23009001
+        ]
+      },
+      {
+        "text": "For example, studies show that \"Round-up ready\" soya flour has no different allergenic potential compared to natural soya flour , and no biotech proteins in GM foods have been documented to cause allergic reactions .",
+        "citations": [
+          10321121,
+          15813800
+        ]
+      },
+      {
+        "text": "Overall, while concerns remain, the current scientific consensus is that GM foods are not more harmful than traditional foods, and the benefits of GM foods, such as improved nutritional quality and pest resistance, likely outweigh the risks .",
+        "citations": [
+          19579682,
+          12126801,
+          14538107
+        ]
+      }
+    ],
+    "references": [
+      "38371681",
+      "19265878",
+      "32725215",
+      "16326439",
+      "29680271",
+      "12508467",
+      "15378169",
+      "12653625",
+      "15123383",
+      "23009001",
+      "10321121",
+      "15813800",
+      "19579682",
+      "12126801",
+      "14538107"
+    ]
+  },
+  {
+    "pipeline": "sparse",
+    "run_id": "latest_default",
+    "topic_id": "188",
+    "topic": "ondansetron alternatives",
+    "narrative": "A patient on ondansetron experiences diarrhea and believes it's one of the drug's side-effects. The patient is thinking about asking the doctor for a different drug for nausea, but wants to compare the side effects of these drugs.",
+    "question": "what other medication can be used to replace ondansetron?",
+    "final_answer_text": "While ondansetron is well tolerated in over 2,000 patients with side effects mainly being constipation and headache , it can cause diarrhea, which is a concern for your patient . Promethazine, another option, has significant side effects including sedation and hypotension, with an FDA black box warning, whereas ondansetron has a favorable safety profile . Alternatives like granisetron have equal antiemetic efficacy with mild and brief side effects reported , and metoclopramide is also a viable option, though both have their own side effect profiles . Mirtazapine effectively treats nausea, vomiting, and diarrhea, reducing polypharmacy and adverse drug events , making it a strong contender for substitution. However, the decision to substitute should be made individually by the physician and patient, considering specific clinical needs and side effect tolerances .",
+    "final_answer_with_citations": "While ondansetron is well tolerated in over 2,000 patients with side effects mainly being constipation and headache , it can cause diarrhea, which is a concern for your patient . [2533899,8488393,25971957] Promethazine, another option, has significant side effects including sedation and hypotension, with an FDA black box warning, whereas ondansetron has a favorable safety profile . [26125161] Alternatives like granisetron have equal antiemetic efficacy with mild and brief side effects reported , and metoclopramide is also a viable option, though both have their own side effect profiles . [18063539,16617916,19938577] Mirtazapine effectively treats nausea, vomiting, and diarrhea, reducing polypharmacy and adverse drug events , making it a strong contender for substitution. [37736438] However, the decision to substitute should be made individually by the physician and patient, considering specific clinical needs and side effect tolerances . [19707254]",
+    "response_sentences": [
+      {
+        "text": "While ondansetron is well tolerated in over 2,000 patients with side effects mainly being constipation and headache , it can cause diarrhea, which is a concern for your patient .",
+        "citations": [
+          2533899,
+          8488393,
+          25971957
+        ]
+      },
+      {
+        "text": "Promethazine, another option, has significant side effects including sedation and hypotension, with an FDA black box warning, whereas ondansetron has a favorable safety profile .",
+        "citations": [
+          26125161
+        ]
+      },
+      {
+        "text": "Alternatives like granisetron have equal antiemetic efficacy with mild and brief side effects reported , and metoclopramide is also a viable option, though both have their own side effect profiles .",
+        "citations": [
+          18063539,
+          16617916,
+          19938577
+        ]
+      },
+      {
+        "text": "Mirtazapine effectively treats nausea, vomiting, and diarrhea, reducing polypharmacy and adverse drug events , making it a strong contender for substitution.",
+        "citations": [
+          37736438
+        ]
+      },
+      {
+        "text": "However, the decision to substitute should be made individually by the physician and patient, considering specific clinical needs and side effect tolerances .",
+        "citations": [
+          19707254
+        ]
+      }
+    ],
+    "references": [
+      "2533899",
+      "8488393",
+      "25971957",
+      "26125161",
+      "18063539",
+      "16617916",
+      "19938577",
+      "37736438",
+      "19707254"
+    ]
+  },
+  {
+    "pipeline": "sparse",
+    "run_id": "latest_default",
+    "topic_id": "189",
+    "topic": "home remedies for skin rash",
+    "narrative": "A young adult with a history of recurring skin rash since early adolescence is looking for alternative treatments.",
+    "question": "how to treat skin rash at home?",
+    "final_answer_text": "For managing a skin rash at home, recommended treatments include the use of emollients, topical antibiotics (such as minocycline), topical corticosteroids, and antihistamines, which have been shown to be effective . Close interaction among prescribers, dermatologists, and nurses is crucial for early diagnosis and treatment, balancing therapeutic benefits with cutaneous reactions . Additionally, prednisolone and topical corticosteroids can be used in conjunction with barrier ointments to manage drug-induced skin rashes, as seen in cases involving pomalidomide and cetuximab treatments . For those with recurrent rashes, a skincare routine involving gentle cleansing, the use of super-absorbent products, and regular application of barrier creams can be beneficial . However, it is important to note that accurate diagnosis is crucial, as evidenced by the need for specific treatments in conditions like urticarial vasculitis, where corticosteroids are effective in over 80% of patients . Early and proactive management, including education and vigilance, can prevent dose reduction or treatment discontinuation, as highlighted in the management of EGFR inhibitor-induced skin rash . For persistent and severe cases, consultation with a dermatologist or a multidisciplinary approach involving different specialists is advised to ensure optimal treatment and quality of life .",
+    "final_answer_with_citations": "For managing a skin rash at home, recommended treatments include the use of emollients, topical antibiotics (such as minocycline), topical corticosteroids, and antihistamines, which have been shown to be effective . [23152009] Close interaction among prescribers, dermatologists, and nurses is crucial for early diagnosis and treatment, balancing therapeutic benefits with cutaneous reactions . [23152009] Additionally, prednisolone and topical corticosteroids can be used in conjunction with barrier ointments to manage drug-induced skin rashes, as seen in cases involving pomalidomide and cetuximab treatments . [30842382,23052154] For those with recurrent rashes, a skincare routine involving gentle cleansing, the use of super-absorbent products, and regular application of barrier creams can be beneficial . [15314924] However, it is important to note that accurate diagnosis is crucial, as evidenced by the need for specific treatments in conditions like urticarial vasculitis, where corticosteroids are effective in over 80% of patients . [30268388] Early and proactive management, including education and vigilance, can prevent dose reduction or treatment discontinuation, as highlighted in the management of EGFR inhibitor-induced skin rash . [39088147,33149916] For persistent and severe cases, consultation with a dermatologist or a multidisciplinary approach involving different specialists is advised to ensure optimal treatment and quality of life . [19229368,35440965]",
+    "response_sentences": [
+      {
+        "text": "For managing a skin rash at home, recommended treatments include the use of emollients, topical antibiotics (such as minocycline), topical corticosteroids, and antihistamines, which have been shown to be effective .",
+        "citations": [
+          23152009
+        ]
+      },
+      {
+        "text": "Close interaction among prescribers, dermatologists, and nurses is crucial for early diagnosis and treatment, balancing therapeutic benefits with cutaneous reactions .",
+        "citations": [
+          23152009
+        ]
+      },
+      {
+        "text": "Additionally, prednisolone and topical corticosteroids can be used in conjunction with barrier ointments to manage drug-induced skin rashes, as seen in cases involving pomalidomide and cetuximab treatments .",
+        "citations": [
+          30842382,
+          23052154
+        ]
+      },
+      {
+        "text": "For those with recurrent rashes, a skincare routine involving gentle cleansing, the use of super-absorbent products, and regular application of barrier creams can be beneficial .",
+        "citations": [
+          15314924
+        ]
+      },
+      {
+        "text": "However, it is important to note that accurate diagnosis is crucial, as evidenced by the need for specific treatments in conditions like urticarial vasculitis, where corticosteroids are effective in over 80% of patients .",
+        "citations": [
+          30268388
+        ]
+      },
+      {
+        "text": "Early and proactive management, including education and vigilance, can prevent dose reduction or treatment discontinuation, as highlighted in the management of EGFR inhibitor-induced skin rash .",
+        "citations": [
+          39088147,
+          33149916
+        ]
+      },
+      {
+        "text": "For persistent and severe cases, consultation with a dermatologist or a multidisciplinary approach involving different specialists is advised to ensure optimal treatment and quality of life .",
+        "citations": [
+          19229368,
+          35440965
+        ]
+      }
+    ],
+    "references": [
+      "23152009",
+      "30842382",
+      "23052154",
+      "15314924",
+      "30268388",
+      "39088147",
+      "33149916",
+      "19229368",
+      "35440965"
+    ]
+  },
+  {
+    "pipeline": "sparse",
+    "run_id": "latest_default",
+    "topic_id": "190",
+    "topic": "blood tests for cancer",
+    "narrative": "A patient with family history of cancer is considering one of the multi-cancer screenings advertised online. Before ordering the test, the patient is looking for information on the tests and their reliability.",
+    "question": "what blood test can indicate cancer?",
+    "final_answer_text": "Blood tests for cancer detection, such as the Prostate-Specific Antigen (PSA) and Carcinoembryonic Antigen (CEA), can indicate cancer risk; a PSA value greater than 10 micrograms/L suggests a 67% probability of prostate cancer . However, these tests have limitations: PSA testing for prostate cancer screening in asymptomatic men is controversial due to concerns about overdiagnosis and overtreatment . Similarly, while CEA testing is widely used in colorectal cancer follow-up, its effectiveness and cost-effectiveness are debated . Emerging multi-cancer early detection (MCED) tests using blood show promise, potentially identifying earlier-stage cancers and reducing deaths by down-staging cancers at diagnosis . However, the reliability and clinical impact of these tests remain uncertain and require further evaluation . Traditional blood tests, like erythrocyte sedimentation rate and hemoglobin concentration, can indicate various conditions, including cancer, but deviations from normal ranges do not provide a cancer-specific diagnosis . Therefore, while blood tests can offer valuable insights, they should be interpreted with caution and often require additional diagnostic procedures for confirmation .",
+    "final_answer_with_citations": "Blood tests for cancer detection, such as the Prostate-Specific Antigen (PSA) and Carcinoembryonic Antigen (CEA), can indicate cancer risk; a PSA value greater than 10 micrograms/L suggests a 67% probability of prostate cancer . [7693377] However, these tests have limitations: PSA testing for prostate cancer screening in asymptomatic men is controversial due to concerns about overdiagnosis and overtreatment . [7692780] Similarly, while CEA testing is widely used in colorectal cancer follow-up, its effectiveness and cost-effectiveness are debated . [17823231,74974] Emerging multi-cancer early detection (MCED) tests using blood show promise, potentially identifying earlier-stage cancers and reducing deaths by down-staging cancers at diagnosis . [35253043] However, the reliability and clinical impact of these tests remain uncertain and require further evaluation . [34450655] Traditional blood tests, like erythrocyte sedimentation rate and hemoglobin concentration, can indicate various conditions, including cancer, but deviations from normal ranges do not provide a cancer-specific diagnosis . [27068991] Therefore, while blood tests can offer valuable insights, they should be interpreted with caution and often require additional diagnostic procedures for confirmation . [39001673,34450655]",
+    "response_sentences": [
+      {
+        "text": "Blood tests for cancer detection, such as the Prostate-Specific Antigen (PSA) and Carcinoembryonic Antigen (CEA), can indicate cancer risk; a PSA value greater than 10 micrograms/L suggests a 67% probability of prostate cancer .",
+        "citations": [
+          7693377
+        ]
+      },
+      {
+        "text": "However, these tests have limitations: PSA testing for prostate cancer screening in asymptomatic men is controversial due to concerns about overdiagnosis and overtreatment .",
+        "citations": [
+          7692780
+        ]
+      },
+      {
+        "text": "Similarly, while CEA testing is widely used in colorectal cancer follow-up, its effectiveness and cost-effectiveness are debated .",
+        "citations": [
+          17823231,
+          74974
+        ]
+      },
+      {
+        "text": "Emerging multi-cancer early detection (MCED) tests using blood show promise, potentially identifying earlier-stage cancers and reducing deaths by down-staging cancers at diagnosis .",
+        "citations": [
+          35253043
+        ]
+      },
+      {
+        "text": "However, the reliability and clinical impact of these tests remain uncertain and require further evaluation .",
+        "citations": [
+          34450655
+        ]
+      },
+      {
+        "text": "Traditional blood tests, like erythrocyte sedimentation rate and hemoglobin concentration, can indicate various conditions, including cancer, but deviations from normal ranges do not provide a cancer-specific diagnosis .",
+        "citations": [
+          27068991
+        ]
+      },
+      {
+        "text": "Therefore, while blood tests can offer valuable insights, they should be interpreted with caution and often require additional diagnostic procedures for confirmation .",
+        "citations": [
+          39001673,
+          34450655
+        ]
+      }
+    ],
+    "references": [
+      "7693377",
+      "7692780",
+      "17823231",
+      "74974",
+      "35253043",
+      "34450655",
+      "27068991",
+      "39001673"
+    ]
+  },
+  {
+    "pipeline": "sparse",
+    "run_id": "latest_default",
+    "topic_id": "191",
+    "topic": "malocclusion due to tonsils and adenoids",
+    "narrative": "Parents of an eight year-old girl were told that her tonsils and adenoids are enlarged. The girl was also diagnosed with Class II malocclusion. The parents are wondering if the problems are related.",
+    "question": "what are tonsils and adenoids, and what is their relationship to malocclusion?",
+    "final_answer_text": "Enlarged tonsils and adenoids, commonly seen in children, can lead to obstructive sleep apnea and upper airway obstruction , which may influence craniofacial development, including malocclusion . Studies suggest that adenoid hypertrophy and tonsillar sepsis are primary indications for surgical removal (tonsillectomy and adenoidectomy, T&A), but the evidence linking these conditions directly to Class II malocclusion is limited . A 16-year-old female with large hyperplastic adenoids and chronic mouth breathing exhibited a gothic palate with malocclusion, indicating a possible relationship . However, other factors such as allergic sensitization and chronic infections can contribute to adenoid hypertrophy, complicating the specific role of tonsils and adenoids in malocclusion . Mouth breathing due to enlarged tonsils and adenoids can negatively impact craniofacial morphology, affecting dentition and dental arches , but surgical removal does not inherently improve circumoral musculature, suggesting that additional interventions may be necessary . While some studies report associations between tonsillar size and craniofacial configurations, the specific impact on Class II malocclusion remains unclear . Therefore, while enlarged tonsils and adenoids can contribute to malocclusion through various mechanisms, more research is needed to establish a definitive causal relationship .",
+    "final_answer_with_citations": "Enlarged tonsils and adenoids, commonly seen in children, can lead to obstructive sleep apnea and upper airway obstruction , which may influence craniofacial development, including malocclusion . [7392747,6933856,15554404] Studies suggest that adenoid hypertrophy and tonsillar sepsis are primary indications for surgical removal (tonsillectomy and adenoidectomy, T&A), but the evidence linking these conditions directly to Class II malocclusion is limited . [3223261,9927961] A 16-year-old female with large hyperplastic adenoids and chronic mouth breathing exhibited a gothic palate with malocclusion, indicating a possible relationship . [8494588] However, other factors such as allergic sensitization and chronic infections can contribute to adenoid hypertrophy, complicating the specific role of tonsils and adenoids in malocclusion . [37045541,14593670] Mouth breathing due to enlarged tonsils and adenoids can negatively impact craniofacial morphology, affecting dentition and dental arches , but surgical removal does not inherently improve circumoral musculature, suggesting that additional interventions may be necessary . [15554404,2600739] While some studies report associations between tonsillar size and craniofacial configurations, the specific impact on Class II malocclusion remains unclear . [38217725,17289457,9428960] Therefore, while enlarged tonsils and adenoids can contribute to malocclusion through various mechanisms, more research is needed to establish a definitive causal relationship . [28457271,2666179,10885154]",
+    "response_sentences": [
+      {
+        "text": "Enlarged tonsils and adenoids, commonly seen in children, can lead to obstructive sleep apnea and upper airway obstruction , which may influence craniofacial development, including malocclusion .",
+        "citations": [
+          7392747,
+          6933856,
+          15554404
+        ]
+      },
+      {
+        "text": "Studies suggest that adenoid hypertrophy and tonsillar sepsis are primary indications for surgical removal (tonsillectomy and adenoidectomy, T&A), but the evidence linking these conditions directly to Class II malocclusion is limited .",
+        "citations": [
+          3223261,
+          9927961
+        ]
+      },
+      {
+        "text": "A 16-year-old female with large hyperplastic adenoids and chronic mouth breathing exhibited a gothic palate with malocclusion, indicating a possible relationship .",
+        "citations": [
+          8494588
+        ]
+      },
+      {
+        "text": "However, other factors such as allergic sensitization and chronic infections can contribute to adenoid hypertrophy, complicating the specific role of tonsils and adenoids in malocclusion .",
+        "citations": [
+          37045541,
+          14593670
+        ]
+      },
+      {
+        "text": "Mouth breathing due to enlarged tonsils and adenoids can negatively impact craniofacial morphology, affecting dentition and dental arches , but surgical removal does not inherently improve circumoral musculature, suggesting that additional interventions may be necessary .",
+        "citations": [
+          15554404,
+          2600739
+        ]
+      },
+      {
+        "text": "While some studies report associations between tonsillar size and craniofacial configurations, the specific impact on Class II malocclusion remains unclear .",
+        "citations": [
+          38217725,
+          17289457,
+          9428960
+        ]
+      },
+      {
+        "text": "Therefore, while enlarged tonsils and adenoids can contribute to malocclusion through various mechanisms, more research is needed to establish a definitive causal relationship .",
+        "citations": [
+          28457271,
+          2666179,
+          10885154
+        ]
+      }
+    ],
+    "references": [
+      "7392747",
+      "6933856",
+      "15554404",
+      "3223261",
+      "9927961",
+      "8494588",
+      "37045541",
+      "14593670",
+      "2600739",
+      "38217725",
+      "17289457",
+      "9428960",
+      "28457271",
+      "2666179",
+      "10885154"
+    ]
+  },
+  {
+    "pipeline": "sparse",
+    "run_id": "latest_default",
+    "topic_id": "192",
+    "topic": "steroids and glaucoma",
+    "narrative": "A glaucoma patient with a mild skin rash is wondering if he can use hydrocortisone cream.",
+    "question": "should steroids be avoided if a person has glaucoma?",
+    "final_answer_text": "Steroid use, including hydrocortisone cream, poses a significant risk for individuals with glaucoma due to the potential to induce ocular hypertension and exacerbate glaucoma, with approximately 40% of users experiencing increased intraocular pressure and around 6% developing glaucoma . While ocular hypertension is often reversible if steroid use is limited to less than 12 months, the risk is higher in patients with preexisting glaucoma, and regular ophthalmologic follow-up is crucial . Case reports and studies have documented instances where topical corticosteroids, such as hydrocortisone, led to steroid-induced glaucoma, resulting in severe visual field defects and requiring treatment . Given these risks, it is advisable for patients with glaucoma to avoid using steroids unless absolutely necessary, and any steroid use should be closely monitored by an ophthalmologist . Furthermore, steroid-induced glaucoma can be temporary and reversible if steroid therapy is discontinued promptly, underscoring the importance of regular ophthalmic examinations to monitor intraocular pressure and visual function .",
+    "final_answer_with_citations": "Steroid use, including hydrocortisone cream, poses a significant risk for individuals with glaucoma due to the potential to induce ocular hypertension and exacerbate glaucoma, with approximately 40% of users experiencing increased intraocular pressure and around 6% developing glaucoma . [39297459] While ocular hypertension is often reversible if steroid use is limited to less than 12 months, the risk is higher in patients with preexisting glaucoma, and regular ophthalmologic follow-up is crucial . [12653048,39297459] Case reports and studies have documented instances where topical corticosteroids, such as hydrocortisone, led to steroid-induced glaucoma, resulting in severe visual field defects and requiring treatment . [16304883,36988173,12755066] Given these risks, it is advisable for patients with glaucoma to avoid using steroids unless absolutely necessary, and any steroid use should be closely monitored by an ophthalmologist . [16304883,21092926,28931299] Furthermore, steroid-induced glaucoma can be temporary and reversible if steroid therapy is discontinued promptly, underscoring the importance of regular ophthalmic examinations to monitor intraocular pressure and visual function . [22970451,16823461]",
+    "response_sentences": [
+      {
+        "text": "Steroid use, including hydrocortisone cream, poses a significant risk for individuals with glaucoma due to the potential to induce ocular hypertension and exacerbate glaucoma, with approximately 40% of users experiencing increased intraocular pressure and around 6% developing glaucoma .",
+        "citations": [
+          39297459
+        ]
+      },
+      {
+        "text": "While ocular hypertension is often reversible if steroid use is limited to less than 12 months, the risk is higher in patients with preexisting glaucoma, and regular ophthalmologic follow-up is crucial .",
+        "citations": [
+          12653048,
+          39297459
+        ]
+      },
+      {
+        "text": "Case reports and studies have documented instances where topical corticosteroids, such as hydrocortisone, led to steroid-induced glaucoma, resulting in severe visual field defects and requiring treatment .",
+        "citations": [
+          16304883,
+          36988173,
+          12755066
+        ]
+      },
+      {
+        "text": "Given these risks, it is advisable for patients with glaucoma to avoid using steroids unless absolutely necessary, and any steroid use should be closely monitored by an ophthalmologist .",
+        "citations": [
+          16304883,
+          21092926,
+          28931299
+        ]
+      },
+      {
+        "text": "Furthermore, steroid-induced glaucoma can be temporary and reversible if steroid therapy is discontinued promptly, underscoring the importance of regular ophthalmic examinations to monitor intraocular pressure and visual function .",
+        "citations": [
+          22970451,
+          16823461
+        ]
+      }
+    ],
+    "references": [
+      "39297459",
+      "12653048",
+      "16304883",
+      "36988173",
+      "12755066",
+      "21092926",
+      "28931299",
+      "22970451",
+      "16823461"
+    ]
+  },
+  {
+    "pipeline": "sparse",
+    "run_id": "latest_default",
+    "topic_id": "193",
+    "topic": "migraine medications without side effects",
+    "narrative": "A woman recently diagnosed with migraines is interested in any medication with the lowest rate and mildest side effects. While she is not planning to have children immediately, she is also concerned with effects on reproductive health and fetus.",
+    "question": "migraines what medication have the least side affects?",
+    "final_answer_text": "Propranolol is recommended as a first-line medication for episodic migraine prevention due to its fewer side effects, though it should not be used during pregnancy or lactation . Among triptans, almotriptan, naratriptan, and sumatriptan have the lowest incidence of central nervous system side-effects (≤15%), making them suitable options for patients concerned about adverse events . Acetaminophen and NSAIDs like ibuprofen are effective with minimal side effects for acute migraines . Lasmiditan and gepants also show promise with a placebo-like tolerability profile . However, specific medications with the lowest side effects and their exact efficacy rates are not provided in the given evidence, and further research is needed to address reproductive health concerns . Non-pharmacological interventions, such as behavioral therapies and electrical nerve stimulation, offer effective management with almost no harmful side effects . Therefore, while several medications are available with minimal side effects, individualized treatment based on patient characteristics and preferences is crucial .",
+    "final_answer_with_citations": "Propranolol is recommended as a first-line medication for episodic migraine prevention due to its fewer side effects, though it should not be used during pregnancy or lactation . [28752512] Among triptans, almotriptan, naratriptan, and sumatriptan have the lowest incidence of central nervous system side-effects (≤15%), making them suitable options for patients concerned about adverse events . [15154851] Acetaminophen and NSAIDs like ibuprofen are effective with minimal side effects for acute migraines . [38307653,25979584] Lasmiditan and gepants also show promise with a placebo-like tolerability profile . [33369482] However, specific medications with the lowest side effects and their exact efficacy rates are not provided in the given evidence, and further research is needed to address reproductive health concerns . [29904832,32459561] Non-pharmacological interventions, such as behavioral therapies and electrical nerve stimulation, offer effective management with almost no harmful side effects . [34646611,32527071] Therefore, while several medications are available with minimal side effects, individualized treatment based on patient characteristics and preferences is crucial . [29235068,11139754]",
+    "response_sentences": [
+      {
+        "text": "Propranolol is recommended as a first-line medication for episodic migraine prevention due to its fewer side effects, though it should not be used during pregnancy or lactation .",
+        "citations": [
+          28752512
+        ]
+      },
+      {
+        "text": "Among triptans, almotriptan, naratriptan, and sumatriptan have the lowest incidence of central nervous system side-effects (≤15%), making them suitable options for patients concerned about adverse events .",
+        "citations": [
+          15154851
+        ]
+      },
+      {
+        "text": "Acetaminophen and NSAIDs like ibuprofen are effective with minimal side effects for acute migraines .",
+        "citations": [
+          38307653,
+          25979584
+        ]
+      },
+      {
+        "text": "Lasmiditan and gepants also show promise with a placebo-like tolerability profile .",
+        "citations": [
+          33369482
+        ]
+      },
+      {
+        "text": "However, specific medications with the lowest side effects and their exact efficacy rates are not provided in the given evidence, and further research is needed to address reproductive health concerns .",
+        "citations": [
+          29904832,
+          32459561
+        ]
+      },
+      {
+        "text": "Non-pharmacological interventions, such as behavioral therapies and electrical nerve stimulation, offer effective management with almost no harmful side effects .",
+        "citations": [
+          34646611,
+          32527071
+        ]
+      },
+      {
+        "text": "Therefore, while several medications are available with minimal side effects, individualized treatment based on patient characteristics and preferences is crucial .",
+        "citations": [
+          29235068,
+          11139754
+        ]
+      }
+    ],
+    "references": [
+      "28752512",
+      "15154851",
+      "38307653",
+      "25979584",
+      "33369482",
+      "29904832",
+      "32459561",
+      "34646611",
+      "32527071",
+      "29235068",
+      "11139754"
+    ]
+  },
+  {
+    "pipeline": "sparse",
+    "run_id": "latest_default",
+    "topic_id": "194",
+    "topic": "outlook for jacobsen syndrome",
+    "narrative": "A 5-year old girl with mild developmental delay, short stature and other alterations of het body was recently diagnosed with Jacobsen syndrome. The parents are looking for information about treatments, life expectancy and quality of life.",
+    "question": "what is the long-term outlook for the child with jacobsen syndrome? are there any treatments or cures?",
+    "final_answer_text": "The long-term outlook for a child with Jacobsen syndrome, characterized by developmental delay, short stature, and other anomalies, is complex and involves significant developmental challenges . Approximately 20% of children with Jacobsen syndrome die within the first two years, often due to congenital heart disease or bleeding, with life expectancy unknown for survivors . While there is no specific cure for Jacobsen syndrome, early detection and appropriate treatment can help manage symptoms and improve quality of life . For instance, surgical interventions like cardiac transplantation and speech therapy can alleviate some of the syndrome's manifestations . Additionally, treatment with intravenous immune globulin (IVIG) can reduce the frequency of severe infections . Despite these interventions, the syndrome's multifaceted nature, including potential hypogonadism and immunodeficiency, requires ongoing medical care . Parents should seek multidisciplinary support to address their child's unique needs and ensure comprehensive care .",
+    "final_answer_with_citations": "The long-term outlook for a child with Jacobsen syndrome, characterized by developmental delay, short stature, and other anomalies, is complex and involves significant developmental challenges . [6123755,10084769,12964701] Approximately 20% of children with Jacobsen syndrome die within the first two years, often due to congenital heart disease or bleeding, with life expectancy unknown for survivors . [29138205,19267933] While there is no specific cure for Jacobsen syndrome, early detection and appropriate treatment can help manage symptoms and improve quality of life . [36661903,23815883,15054845] For instance, surgical interventions like cardiac transplantation and speech therapy can alleviate some of the syndrome's manifestations . [36661903,23477227] Additionally, treatment with intravenous immune globulin (IVIG) can reduce the frequency of severe infections . [37323257] Despite these interventions, the syndrome's multifaceted nature, including potential hypogonadism and immunodeficiency, requires ongoing medical care . [15266617,27605496] Parents should seek multidisciplinary support to address their child's unique needs and ensure comprehensive care . [39054670,23477227]",
+    "response_sentences": [
+      {
+        "text": "The long-term outlook for a child with Jacobsen syndrome, characterized by developmental delay, short stature, and other anomalies, is complex and involves significant developmental challenges .",
+        "citations": [
+          6123755,
+          10084769,
+          12964701
+        ]
+      },
+      {
+        "text": "Approximately 20% of children with Jacobsen syndrome die within the first two years, often due to congenital heart disease or bleeding, with life expectancy unknown for survivors .",
+        "citations": [
+          29138205,
+          19267933
+        ]
+      },
+      {
+        "text": "While there is no specific cure for Jacobsen syndrome, early detection and appropriate treatment can help manage symptoms and improve quality of life .",
+        "citations": [
+          36661903,
+          23815883,
+          15054845
+        ]
+      },
+      {
+        "text": "For instance, surgical interventions like cardiac transplantation and speech therapy can alleviate some of the syndrome's manifestations .",
+        "citations": [
+          36661903,
+          23477227
+        ]
+      },
+      {
+        "text": "Additionally, treatment with intravenous immune globulin (IVIG) can reduce the frequency of severe infections .",
+        "citations": [
+          37323257
+        ]
+      },
+      {
+        "text": "Despite these interventions, the syndrome's multifaceted nature, including potential hypogonadism and immunodeficiency, requires ongoing medical care .",
+        "citations": [
+          15266617,
+          27605496
+        ]
+      },
+      {
+        "text": "Parents should seek multidisciplinary support to address their child's unique needs and ensure comprehensive care .",
+        "citations": [
+          39054670,
+          23477227
+        ]
+      }
+    ],
+    "references": [
+      "6123755",
+      "10084769",
+      "12964701",
+      "29138205",
+      "19267933",
+      "36661903",
+      "23815883",
+      "15054845",
+      "23477227",
+      "37323257",
+      "15266617",
+      "27605496",
+      "39054670"
+    ]
+  },
+  {
+    "pipeline": "sparse",
+    "run_id": "latest_default",
+    "topic_id": "195",
+    "topic": "ca19-9 blood test result",
+    "narrative": "A 38-year-old male with family history of colon cancer had a ca19-9 blood test with elevated results. The patient is asking if the elevated results are always associated with cancer or may have other causes.",
+    "question": "if the value of ca19-9 blood test result exceeds the normal range is it cancer?",
+    "final_answer_text": "Elevated CA19-9 blood test results, such as those observed in your case, can indicate the presence of cancer but are not definitive indicators, as they can also be elevated due to other causes . Specifically, elevated CA19-9 levels are commonly associated with pancreatic cancer, with a sensitivity of 80.3% and specificity of 80.2% . However, they can also be elevated in other malignancies like colorectal cancer (87% of cases) and benign conditions such as chronic pancreatitis . Additionally, elevated CA19-9 levels can occur in non-cancerous conditions like acute cholecystitis and choledocholithiasis, which normalized after treatment . The test's accuracy can vary based on factors like FUT variants and the presence of heterophilic antibodies, which can cause false elevations . Therefore, while elevated CA19-9 levels warrant further investigation, they should be interpreted in conjunction with clinical symptoms, imaging, and other diagnostic tests .",
+    "final_answer_with_citations": "Elevated CA19-9 blood test results, such as those observed in your case, can indicate the presence of cancer but are not definitive indicators, as they can also be elevated due to other causes . [22975648,38319515,1931612] Specifically, elevated CA19-9 levels are commonly associated with pancreatic cancer, with a sensitivity of 80.3% and specificity of 80.2% . [23456571] However, they can also be elevated in other malignancies like colorectal cancer (87% of cases) and benign conditions such as chronic pancreatitis . [2180502,25337284] Additionally, elevated CA19-9 levels can occur in non-cancerous conditions like acute cholecystitis and choledocholithiasis, which normalized after treatment . [37926542] The test's accuracy can vary based on factors like FUT variants and the presence of heterophilic antibodies, which can cause false elevations . [38319515,22904141] Therefore, while elevated CA19-9 levels warrant further investigation, they should be interpreted in conjunction with clinical symptoms, imaging, and other diagnostic tests . [7846013,3166103]",
+    "response_sentences": [
+      {
+        "text": "Elevated CA19-9 blood test results, such as those observed in your case, can indicate the presence of cancer but are not definitive indicators, as they can also be elevated due to other causes .",
+        "citations": [
+          22975648,
+          38319515,
+          1931612
+        ]
+      },
+      {
+        "text": "Specifically, elevated CA19-9 levels are commonly associated with pancreatic cancer, with a sensitivity of 80.3% and specificity of 80.2% .",
+        "citations": [
+          23456571
+        ]
+      },
+      {
+        "text": "However, they can also be elevated in other malignancies like colorectal cancer (87% of cases) and benign conditions such as chronic pancreatitis .",
+        "citations": [
+          2180502,
+          25337284
+        ]
+      },
+      {
+        "text": "Additionally, elevated CA19-9 levels can occur in non-cancerous conditions like acute cholecystitis and choledocholithiasis, which normalized after treatment .",
+        "citations": [
+          37926542
+        ]
+      },
+      {
+        "text": "The test's accuracy can vary based on factors like FUT variants and the presence of heterophilic antibodies, which can cause false elevations .",
+        "citations": [
+          38319515,
+          22904141
+        ]
+      },
+      {
+        "text": "Therefore, while elevated CA19-9 levels warrant further investigation, they should be interpreted in conjunction with clinical symptoms, imaging, and other diagnostic tests .",
+        "citations": [
+          7846013,
+          3166103
+        ]
+      }
+    ],
+    "references": [
+      "22975648",
+      "38319515",
+      "1931612",
+      "23456571",
+      "2180502",
+      "25337284",
+      "37926542",
+      "22904141",
+      "7846013",
+      "3166103"
+    ]
+  },
+  {
+    "pipeline": "sparse",
+    "run_id": "latest_default",
+    "topic_id": "196",
+    "topic": "familial hypercholesterolemia genotype",
+    "narrative": "A patient diagnosed with familial hypercholesterolemia based on lipid levels, family history and physical exam is wondering if genetic testing is needed and if some specific genetic pathologic variants must be present to confirm the diagnosis.",
+    "question": "how is the genetic code of someone with familial hypercholesterolemia different from a healthy person?",
+    "final_answer_text": "Genetic testing is essential for confirming the diagnosis of familial hypercholesterolemia (FH) and identifying specific pathogenic variants, although it is not always necessary based on clinical presentation, lipid levels, and family history . Studies have identified several key genetic variations, such as mutations in the LDL-receptor gene, which are present in approximately 95% of FH-causing genetic variants . These mutations can be homozygous or heterozygous and include rare pathogenic variants in LDLR, APOB, PCSK9, LDLRAP1, ABCG5, ABCG8, and others . For instance, a study using targeted exome sequencing detected mutations in 100% of young patients with severe hypercholesterolemia, confirming the presence of specific genetic pathologic variants . Genetic testing also aids in clinical decision-making and treatment, as demonstrated in families with varying FH phenotypes, improving surveillance and preventing cardiovascular complications . However, genetic testing remains underutilized, with only 10% of the FH population diagnosed and treated due to unidentified variants and pathogenicity uncertainties . Thus, while specific genetic pathologic variants are crucial for a definitive diagnosis, clinical characteristics and family history remain important in diagnosing FH .",
+    "final_answer_with_citations": "Genetic testing is essential for confirming the diagnosis of familial hypercholesterolemia (FH) and identifying specific pathogenic variants, although it is not always necessary based on clinical presentation, lipid levels, and family history . [35625781,3389027,39590424] Studies have identified several key genetic variations, such as mutations in the LDL-receptor gene, which are present in approximately 95% of FH-causing genetic variants . [38867270] These mutations can be homozygous or heterozygous and include rare pathogenic variants in LDLR, APOB, PCSK9, LDLRAP1, ABCG5, ABCG8, and others . [37808210,31883481] For instance, a study using targeted exome sequencing detected mutations in 100% of young patients with severe hypercholesterolemia, confirming the presence of specific genetic pathologic variants . [27830735] Genetic testing also aids in clinical decision-making and treatment, as demonstrated in families with varying FH phenotypes, improving surveillance and preventing cardiovascular complications . [27542166,32295171] However, genetic testing remains underutilized, with only 10% of the FH population diagnosed and treated due to unidentified variants and pathogenicity uncertainties . [38867270] Thus, while specific genetic pathologic variants are crucial for a definitive diagnosis, clinical characteristics and family history remain important in diagnosing FH . [15199431,9066460,30532597]",
+    "response_sentences": [
+      {
+        "text": "Genetic testing is essential for confirming the diagnosis of familial hypercholesterolemia (FH) and identifying specific pathogenic variants, although it is not always necessary based on clinical presentation, lipid levels, and family history .",
+        "citations": [
+          35625781,
+          3389027,
+          39590424
+        ]
+      },
+      {
+        "text": "Studies have identified several key genetic variations, such as mutations in the LDL-receptor gene, which are present in approximately 95% of FH-causing genetic variants .",
+        "citations": [
+          38867270
+        ]
+      },
+      {
+        "text": "These mutations can be homozygous or heterozygous and include rare pathogenic variants in LDLR, APOB, PCSK9, LDLRAP1, ABCG5, ABCG8, and others .",
+        "citations": [
+          37808210,
+          31883481
+        ]
+      },
+      {
+        "text": "For instance, a study using targeted exome sequencing detected mutations in 100% of young patients with severe hypercholesterolemia, confirming the presence of specific genetic pathologic variants .",
+        "citations": [
+          27830735
+        ]
+      },
+      {
+        "text": "Genetic testing also aids in clinical decision-making and treatment, as demonstrated in families with varying FH phenotypes, improving surveillance and preventing cardiovascular complications .",
+        "citations": [
+          27542166,
+          32295171
+        ]
+      },
+      {
+        "text": "However, genetic testing remains underutilized, with only 10% of the FH population diagnosed and treated due to unidentified variants and pathogenicity uncertainties .",
+        "citations": [
+          38867270
+        ]
+      },
+      {
+        "text": "Thus, while specific genetic pathologic variants are crucial for a definitive diagnosis, clinical characteristics and family history remain important in diagnosing FH .",
+        "citations": [
+          15199431,
+          9066460,
+          30532597
+        ]
+      }
+    ],
+    "references": [
+      "35625781",
+      "3389027",
+      "39590424",
+      "38867270",
+      "37808210",
+      "31883481",
+      "27830735",
+      "27542166",
+      "32295171",
+      "15199431",
+      "9066460",
+      "30532597"
+    ]
+  },
+  {
+    "pipeline": "sparse",
+    "run_id": "latest_default",
+    "topic_id": "197",
+    "topic": "decongestants and cold",
+    "narrative": "A patient with common cold is severely congested and would like to take some over-the-counter decongestants or use home remedies, but is afraid this will only extend the cold.",
+    "question": "does taking decongestants prolong a cold?",
+    "final_answer_text": "Over-the-counter decongestants, such as phenylephrine and pseudoephedrine, do not shorten the duration of a common cold episode ; they primarily alleviate symptom severity without extending the illness . Recent evidence indicates that phenylephrine may be removed from over-the-counter products due to its ineffectiveness . While topical decongestants provide rapid relief for nasal congestion , there is insufficient meta-analysis to definitively determine if they extend cold duration . Excessive use of intranasal decongestants can lead to rebound nasal congestion, known as rhinitis medicamentosa, which can significantly impact quality of life . Despite the lack of strong evidence linking decongestant use to prolonged cold symptoms, it is advisable to limit use to 5-7 days and seek medical advice if symptoms persist . Studies suggest that decongestants may offer some efficacy against congestion in allergic rhinitis and common cold , but their long-term impact on cold duration remains uncertain . Overall, while decongestants can provide symptomatic relief, they should be used cautiously to avoid potential adverse effects and should not be expected to shorten the duration of a common cold .",
+    "final_answer_with_citations": "Over-the-counter decongestants, such as phenylephrine and pseudoephedrine, do not shorten the duration of a common cold episode ; they primarily alleviate symptom severity without extending the illness . [39253103,32721463,20463825] Recent evidence indicates that phenylephrine may be removed from over-the-counter products due to its ineffectiveness . [39253103] While topical decongestants provide rapid relief for nasal congestion , there is insufficient meta-analysis to definitively determine if they extend cold duration . [22336807,20151787,15266459] Excessive use of intranasal decongestants can lead to rebound nasal congestion, known as rhinitis medicamentosa, which can significantly impact quality of life . [32628388] Despite the lack of strong evidence linking decongestant use to prolonged cold symptoms, it is advisable to limit use to 5-7 days and seek medical advice if symptoms persist . [24340680,32628388] Studies suggest that decongestants may offer some efficacy against congestion in allergic rhinitis and common cold , but their long-term impact on cold duration remains uncertain . [20463825,17597571,25888289] Overall, while decongestants can provide symptomatic relief, they should be used cautiously to avoid potential adverse effects and should not be expected to shorten the duration of a common cold . [39253103,32242436,37242445]",
+    "response_sentences": [
+      {
+        "text": "Over-the-counter decongestants, such as phenylephrine and pseudoephedrine, do not shorten the duration of a common cold episode ; they primarily alleviate symptom severity without extending the illness .",
+        "citations": [
+          39253103,
+          32721463,
+          20463825
+        ]
+      },
+      {
+        "text": "Recent evidence indicates that phenylephrine may be removed from over-the-counter products due to its ineffectiveness .",
+        "citations": [
+          39253103
+        ]
+      },
+      {
+        "text": "While topical decongestants provide rapid relief for nasal congestion , there is insufficient meta-analysis to definitively determine if they extend cold duration .",
+        "citations": [
+          22336807,
+          20151787,
+          15266459
+        ]
+      },
+      {
+        "text": "Excessive use of intranasal decongestants can lead to rebound nasal congestion, known as rhinitis medicamentosa, which can significantly impact quality of life .",
+        "citations": [
+          32628388
+        ]
+      },
+      {
+        "text": "Despite the lack of strong evidence linking decongestant use to prolonged cold symptoms, it is advisable to limit use to 5-7 days and seek medical advice if symptoms persist .",
+        "citations": [
+          24340680,
+          32628388
+        ]
+      },
+      {
+        "text": "Studies suggest that decongestants may offer some efficacy against congestion in allergic rhinitis and common cold , but their long-term impact on cold duration remains uncertain .",
+        "citations": [
+          20463825,
+          17597571,
+          25888289
+        ]
+      },
+      {
+        "text": "Overall, while decongestants can provide symptomatic relief, they should be used cautiously to avoid potential adverse effects and should not be expected to shorten the duration of a common cold .",
+        "citations": [
+          39253103,
+          32242436,
+          37242445
+        ]
+      }
+    ],
+    "references": [
+      "39253103",
+      "32721463",
+      "20463825",
+      "22336807",
+      "20151787",
+      "15266459",
+      "32628388",
+      "24340680",
+      "17597571",
+      "25888289",
+      "32242436",
+      "37242445"
+    ]
+  },
+  {
+    "pipeline": "sparse",
+    "run_id": "latest_default",
+    "topic_id": "198",
+    "topic": "untreated cystic fibrosis in children",
+    "narrative": "The parents heard that most children with cystic fibrosis have good quality of life, e.g., attend school and participate in activities. Currently, they cannot enroll in a cystic fibrosis care program. They need to know how the child's life and development will be affected.",
+    "question": "what will happen to the child’s quality of life if the family is not able to afford treatments for cystic fibrosis?",
+    "final_answer_text": "Living with untreated cystic fibrosis significantly impacts the child's quality of life, despite the common perception that most children with cystic fibrosis can attend school and participate in activities . While some children may lead relatively normal lives, untreated cystic fibrosis often leads to poor quality of life due to the intensive treatment demands and the nature of the illness, which can result in increased hospitalizations and significant psychological issues . The condition can impose significant suffering, reduced lifespan, and high treatment costs , affecting not only the child but also the family's quality of life and financial stability . Additionally, untreated cystic fibrosis can lead to musculoskeletal and neuromuscular deficits, pancreatic insufficiency, and sleep disturbances, all of which further diminish the child's well-being . Despite these challenges, successful psychological adjustment by families and competent medical management can significantly enhance the child's quality of life . However, without access to comprehensive care, the prognosis for children with untreated cystic fibrosis remains poor, with untreated cases leading to significant morbidity and mortality .",
+    "final_answer_with_citations": "Living with untreated cystic fibrosis significantly impacts the child's quality of life, despite the common perception that most children with cystic fibrosis can attend school and participate in activities . [16157188,3315409,33323351] While some children may lead relatively normal lives, untreated cystic fibrosis often leads to poor quality of life due to the intensive treatment demands and the nature of the illness, which can result in increased hospitalizations and significant psychological issues . [31425607,12531104,3164511] The condition can impose significant suffering, reduced lifespan, and high treatment costs , affecting not only the child but also the family's quality of life and financial stability . [9637928,3315409,3164511] Additionally, untreated cystic fibrosis can lead to musculoskeletal and neuromuscular deficits, pancreatic insufficiency, and sleep disturbances, all of which further diminish the child's well-being . [16025768,31860639,30093360] Despite these challenges, successful psychological adjustment by families and competent medical management can significantly enhance the child's quality of life . [3315409,29789057] However, without access to comprehensive care, the prognosis for children with untreated cystic fibrosis remains poor, with untreated cases leading to significant morbidity and mortality . [25447947]",
+    "response_sentences": [
+      {
+        "text": "Living with untreated cystic fibrosis significantly impacts the child's quality of life, despite the common perception that most children with cystic fibrosis can attend school and participate in activities .",
+        "citations": [
+          16157188,
+          3315409,
+          33323351
+        ]
+      },
+      {
+        "text": "While some children may lead relatively normal lives, untreated cystic fibrosis often leads to poor quality of life due to the intensive treatment demands and the nature of the illness, which can result in increased hospitalizations and significant psychological issues .",
+        "citations": [
+          31425607,
+          12531104,
+          3164511
+        ]
+      },
+      {
+        "text": "The condition can impose significant suffering, reduced lifespan, and high treatment costs , affecting not only the child but also the family's quality of life and financial stability .",
+        "citations": [
+          9637928,
+          3315409,
+          3164511
+        ]
+      },
+      {
+        "text": "Additionally, untreated cystic fibrosis can lead to musculoskeletal and neuromuscular deficits, pancreatic insufficiency, and sleep disturbances, all of which further diminish the child's well-being .",
+        "citations": [
+          16025768,
+          31860639,
+          30093360
+        ]
+      },
+      {
+        "text": "Despite these challenges, successful psychological adjustment by families and competent medical management can significantly enhance the child's quality of life .",
+        "citations": [
+          3315409,
+          29789057
+        ]
+      },
+      {
+        "text": "However, without access to comprehensive care, the prognosis for children with untreated cystic fibrosis remains poor, with untreated cases leading to significant morbidity and mortality .",
+        "citations": [
+          25447947
+        ]
+      }
+    ],
+    "references": [
+      "16157188",
+      "3315409",
+      "33323351",
+      "31425607",
+      "12531104",
+      "3164511",
+      "9637928",
+      "16025768",
+      "31860639",
+      "30093360",
+      "29789057",
+      "25447947"
+    ]
+  },
+  {
+    "pipeline": "sparse",
+    "run_id": "latest_default",
+    "topic_id": "199",
+    "topic": "ER for head injury",
+    "narrative": "A 70-year old man lost balance and hit his head against the wall several days ago. He did not experience any symptoms. He now has headaches and feels his gait is not steady. He is wondering if he should visit an emergency department.",
+    "question": "blows to the head and when to go to the emergency department?",
+    "final_answer_text": "The 70-year-old man who experienced a head injury and now reports headaches and unsteady gait should consider visiting an emergency department for evaluation . Elderly patients with minor head injuries have a relatively low incidence of posttraumatic intracranial hemorrhage, with a hospitalization rate of 10.5% and a re-admission rate of 2.1% , but delayed neurological symptoms can occur, as seen in a case of paraperesis developing two days post-injury . Given the man's symptoms and age, a noncontrast head CT scan is recommended if he presents within 24 hours . This approach helps identify potentially lethal intracranial lesions while minimizing unnecessary testing and admissions . Emergency department evaluation is crucial for ensuring proper medical care and ruling out serious complications .",
+    "final_answer_with_citations": "The 70-year-old man who experienced a head injury and now reports headaches and unsteady gait should consider visiting an emergency department for evaluation . [23101569] Elderly patients with minor head injuries have a relatively low incidence of posttraumatic intracranial hemorrhage, with a hospitalization rate of 10.5% and a re-admission rate of 2.1% , but delayed neurological symptoms can occur, as seen in a case of paraperesis developing two days post-injury . [32671238,23133706] Given the man's symptoms and age, a noncontrast head CT scan is recommended if he presents within 24 hours . [19027497] This approach helps identify potentially lethal intracranial lesions while minimizing unnecessary testing and admissions . [23101569] Emergency department evaluation is crucial for ensuring proper medical care and ruling out serious complications . [7255949]",
+    "response_sentences": [
+      {
+        "text": "The 70-year-old man who experienced a head injury and now reports headaches and unsteady gait should consider visiting an emergency department for evaluation .",
+        "citations": [
+          23101569
+        ]
+      },
+      {
+        "text": "Elderly patients with minor head injuries have a relatively low incidence of posttraumatic intracranial hemorrhage, with a hospitalization rate of 10.5% and a re-admission rate of 2.1% , but delayed neurological symptoms can occur, as seen in a case of paraperesis developing two days post-injury .",
+        "citations": [
+          32671238,
+          23133706
+        ]
+      },
+      {
+        "text": "Given the man's symptoms and age, a noncontrast head CT scan is recommended if he presents within 24 hours .",
+        "citations": [
+          19027497
+        ]
+      },
+      {
+        "text": "This approach helps identify potentially lethal intracranial lesions while minimizing unnecessary testing and admissions .",
+        "citations": [
+          23101569
+        ]
+      },
+      {
+        "text": "Emergency department evaluation is crucial for ensuring proper medical care and ruling out serious complications .",
+        "citations": [
+          7255949
+        ]
+      }
+    ],
+    "references": [
+      "23101569",
+      "32671238",
+      "23133706",
+      "19027497",
+      "7255949"
+    ]
+  },
+  {
+    "pipeline": "sparse",
+    "run_id": "latest_default",
+    "topic_id": "200",
+    "topic": "screen time and seizures",
+    "narrative": "A 21-year-old woman with a history of seizures read that TV and video games may provoke seizures. She would like to know how much screen time is safe and which activities may cause seizures.",
+    "question": "will e-time harm a person with a history of seizures?",
+    "final_answer_text": "The available evidence does not directly address the relationship between screen time and seizures in individuals with a history of seizures . However, factors such as a history of multiple seizures and neurological conditions can predispose individuals to seizures, which may be exacerbated by various triggers . For instance, air travel has been shown to increase seizure frequency in individuals with epilepsy, particularly those with a higher baseline seizure frequency . Additionally, while the evidence does not specify screen time limits, studies highlight the importance of recognizing and managing seizures promptly . It is crucial for individuals with a history of seizures to monitor their activities and identify any potential triggers, including screen time, to minimize the risk of seizure provocation . Overall, the prognosis for individuals with a history of seizures can be favorable, with most epilepsies having a good prognosis for full seizure control . Prognostic factors include aetiology, EEG abnormalities, seizure type, and number of seizures before treatment onset . Therefore, while screen time may not inherently cause seizures, individuals should be cautious and aware of their personal seizure triggers .",
+    "final_answer_with_citations": "The available evidence does not directly address the relationship between screen time and seizures in individuals with a history of seizures . [34191061,27552484,28242175] However, factors such as a history of multiple seizures and neurological conditions can predispose individuals to seizures, which may be exacerbated by various triggers . [8404737,36153467,16647276] For instance, air travel has been shown to increase seizure frequency in individuals with epilepsy, particularly those with a higher baseline seizure frequency . [27552484,16647276] Additionally, while the evidence does not specify screen time limits, studies highlight the importance of recognizing and managing seizures promptly . [27615348] It is crucial for individuals with a history of seizures to monitor their activities and identify any potential triggers, including screen time, to minimize the risk of seizure provocation . [8404737,36153467,16647276] Overall, the prognosis for individuals with a history of seizures can be favorable, with most epilepsies having a good prognosis for full seizure control . [26234761,38433207,8243349] Prognostic factors include aetiology, EEG abnormalities, seizure type, and number of seizures before treatment onset . [26234761] Therefore, while screen time may not inherently cause seizures, individuals should be cautious and aware of their personal seizure triggers . [34191061,27552484,28242175]",
+    "response_sentences": [
+      {
+        "text": "The available evidence does not directly address the relationship between screen time and seizures in individuals with a history of seizures .",
+        "citations": [
+          34191061,
+          27552484,
+          28242175
+        ]
+      },
+      {
+        "text": "However, factors such as a history of multiple seizures and neurological conditions can predispose individuals to seizures, which may be exacerbated by various triggers .",
+        "citations": [
+          8404737,
+          36153467,
+          16647276
+        ]
+      },
+      {
+        "text": "For instance, air travel has been shown to increase seizure frequency in individuals with epilepsy, particularly those with a higher baseline seizure frequency .",
+        "citations": [
+          27552484,
+          16647276
+        ]
+      },
+      {
+        "text": "Additionally, while the evidence does not specify screen time limits, studies highlight the importance of recognizing and managing seizures promptly .",
+        "citations": [
+          27615348
+        ]
+      },
+      {
+        "text": "It is crucial for individuals with a history of seizures to monitor their activities and identify any potential triggers, including screen time, to minimize the risk of seizure provocation .",
+        "citations": [
+          8404737,
+          36153467,
+          16647276
+        ]
+      },
+      {
+        "text": "Overall, the prognosis for individuals with a history of seizures can be favorable, with most epilepsies having a good prognosis for full seizure control .",
+        "citations": [
+          26234761,
+          38433207,
+          8243349
+        ]
+      },
+      {
+        "text": "Prognostic factors include aetiology, EEG abnormalities, seizure type, and number of seizures before treatment onset .",
+        "citations": [
+          26234761
+        ]
+      },
+      {
+        "text": "Therefore, while screen time may not inherently cause seizures, individuals should be cautious and aware of their personal seizure triggers .",
+        "citations": [
+          34191061,
+          27552484,
+          28242175
+        ]
+      }
+    ],
+    "references": [
+      "34191061",
+      "27552484",
+      "28242175",
+      "8404737",
+      "36153467",
+      "16647276",
+      "27615348",
+      "26234761",
+      "38433207",
+      "8243349"
+    ]
+  },
+  {
+    "pipeline": "sparse",
+    "run_id": "latest_default",
+    "topic_id": "201",
+    "topic": "statin taken at night",
+    "narrative": "The patient wants to know if there are any benefits to taking statins at night. The patient believes the quality of his sleep decreased and taking statins in the morning will restore his sleep.",
+    "question": "why statin taken at bedtime?",
+    "final_answer_text": "The current evidence does not specifically address whether taking statins at night benefits sleep quality or compares it to taking them in the morning . However, it is noted that patients frequently experience adverse effects with statins, and changing the timing of dosing is one strategy for managing statin intolerance . Chronotherapy with statins taken at night aligns with cholesterol biosynthesis, which peaks between 12:00 am and 6:00 am, though this timing does not necessarily improve sleep quality . Studies on other medications suggest that taking drugs at bedtime can minimize daytime side effects, but no specific data on statins are provided . The evidence also indicates that adverse muscle symptoms, which can affect sleep, are a common reason for statin discontinuation, and some of these symptoms may be related to the timing of dosing . Therefore, while there is no strong evidence to support taking statins at night for improved sleep, adjusting the timing of medication could be considered as part of a broader strategy to manage side effects and improve overall patient satisfaction .",
+    "final_answer_with_citations": "The current evidence does not specifically address whether taking statins at night benefits sleep quality or compares it to taking them in the morning . [20425271,38679189,17323598] However, it is noted that patients frequently experience adverse effects with statins, and changing the timing of dosing is one strategy for managing statin intolerance . [20425271] Chronotherapy with statins taken at night aligns with cholesterol biosynthesis, which peaks between 12:00 am and 6:00 am, though this timing does not necessarily improve sleep quality . [27888640,23299641,36345572] Studies on other medications suggest that taking drugs at bedtime can minimize daytime side effects, but no specific data on statins are provided . [11452683,11219329,22378469] The evidence also indicates that adverse muscle symptoms, which can affect sleep, are a common reason for statin discontinuation, and some of these symptoms may be related to the timing of dosing . [36345572,25410047] Therefore, while there is no strong evidence to support taking statins at night for improved sleep, adjusting the timing of medication could be considered as part of a broader strategy to manage side effects and improve overall patient satisfaction . [20425271,23299641,25410047]",
+    "response_sentences": [
+      {
+        "text": "The current evidence does not specifically address whether taking statins at night benefits sleep quality or compares it to taking them in the morning .",
+        "citations": [
+          20425271,
+          38679189,
+          17323598
+        ]
+      },
+      {
+        "text": "However, it is noted that patients frequently experience adverse effects with statins, and changing the timing of dosing is one strategy for managing statin intolerance .",
+        "citations": [
+          20425271
+        ]
+      },
+      {
+        "text": "Chronotherapy with statins taken at night aligns with cholesterol biosynthesis, which peaks between 12:00 am and 6:00 am, though this timing does not necessarily improve sleep quality .",
+        "citations": [
+          27888640,
+          23299641,
+          36345572
+        ]
+      },
+      {
+        "text": "Studies on other medications suggest that taking drugs at bedtime can minimize daytime side effects, but no specific data on statins are provided .",
+        "citations": [
+          11452683,
+          11219329,
+          22378469
+        ]
+      },
+      {
+        "text": "The evidence also indicates that adverse muscle symptoms, which can affect sleep, are a common reason for statin discontinuation, and some of these symptoms may be related to the timing of dosing .",
+        "citations": [
+          36345572,
+          25410047
+        ]
+      },
+      {
+        "text": "Therefore, while there is no strong evidence to support taking statins at night for improved sleep, adjusting the timing of medication could be considered as part of a broader strategy to manage side effects and improve overall patient satisfaction .",
+        "citations": [
+          20425271,
+          23299641,
+          25410047
+        ]
+      }
+    ],
+    "references": [
+      "20425271",
+      "38679189",
+      "17323598",
+      "27888640",
+      "23299641",
+      "36345572",
+      "11452683",
+      "11219329",
+      "22378469",
+      "25410047"
+    ]
+  },
+  {
+    "pipeline": "sparse",
+    "run_id": "latest_default",
+    "topic_id": "202",
+    "topic": "infertility consult",
+    "narrative": "A couple in their late 30th is trying to conceive for slightly more than a year. They are worried that it takes so long and consider seeing a fertility specialist.",
+    "question": "when to consult a fertility specialist for infertility?",
+    "final_answer_text": "A couple in their late 30s trying to conceive for over a year should consider consulting a fertility specialist, as studies indicate that extending the duration of pregnancy seeking beyond two years is advisable before diagnosing unexplained infertility, especially for older couples . Additionally, addressing lifestyle factors such as obesity and smoking, and optimizing sexual frequency, can improve natural conception chances . Health-care providers should inform young cancer survivors about the impact of cancer therapy on fertility and refer them to fertility specialists for counseling . The Human Fertilisation and Embryology Act 2008 in the UK has made fertility treatment more accessible without requiring clinicians to consider the 'need for a father' . Furthermore, studies suggest that early referral to fertility specialists can improve outcomes for cancer patients undergoing treatments that may impair fertility . Despite the availability of fertility specialists, many patients, especially younger ones, are underutilizing these consultations . This underutilization may be due to barriers such as costs, lack of awareness, and embarrassment , underscoring the importance of patient education and reducing stigma associated with infertility .",
+    "final_answer_with_citations": "A couple in their late 30s trying to conceive for over a year should consider consulting a fertility specialist, as studies indicate that extending the duration of pregnancy seeking beyond two years is advisable before diagnosing unexplained infertility, especially for older couples . [31241741] Additionally, addressing lifestyle factors such as obesity and smoking, and optimizing sexual frequency, can improve natural conception chances . [31241741] Health-care providers should inform young cancer survivors about the impact of cancer therapy on fertility and refer them to fertility specialists for counseling . [27200291] The Human Fertilisation and Embryology Act 2008 in the UK has made fertility treatment more accessible without requiring clinicians to consider the 'need for a father' . [19622245] Furthermore, studies suggest that early referral to fertility specialists can improve outcomes for cancer patients undergoing treatments that may impair fertility . [37714641,33115753] Despite the availability of fertility specialists, many patients, especially younger ones, are underutilizing these consultations . [30124234] This underutilization may be due to barriers such as costs, lack of awareness, and embarrassment , underscoring the importance of patient education and reducing stigma associated with infertility . [34756644,27368879]",
+    "response_sentences": [
+      {
+        "text": "A couple in their late 30s trying to conceive for over a year should consider consulting a fertility specialist, as studies indicate that extending the duration of pregnancy seeking beyond two years is advisable before diagnosing unexplained infertility, especially for older couples .",
+        "citations": [
+          31241741
+        ]
+      },
+      {
+        "text": "Additionally, addressing lifestyle factors such as obesity and smoking, and optimizing sexual frequency, can improve natural conception chances .",
+        "citations": [
+          31241741
+        ]
+      },
+      {
+        "text": "Health-care providers should inform young cancer survivors about the impact of cancer therapy on fertility and refer them to fertility specialists for counseling .",
+        "citations": [
+          27200291
+        ]
+      },
+      {
+        "text": "The Human Fertilisation and Embryology Act 2008 in the UK has made fertility treatment more accessible without requiring clinicians to consider the 'need for a father' .",
+        "citations": [
+          19622245
+        ]
+      },
+      {
+        "text": "Furthermore, studies suggest that early referral to fertility specialists can improve outcomes for cancer patients undergoing treatments that may impair fertility .",
+        "citations": [
+          37714641,
+          33115753
+        ]
+      },
+      {
+        "text": "Despite the availability of fertility specialists, many patients, especially younger ones, are underutilizing these consultations .",
+        "citations": [
+          30124234
+        ]
+      },
+      {
+        "text": "This underutilization may be due to barriers such as costs, lack of awareness, and embarrassment , underscoring the importance of patient education and reducing stigma associated with infertility .",
+        "citations": [
+          34756644,
+          27368879
+        ]
+      }
+    ],
+    "references": [
+      "31241741",
+      "27200291",
+      "19622245",
+      "37714641",
+      "33115753",
+      "30124234",
+      "34756644",
+      "27368879"
+    ]
+  },
+  {
+    "pipeline": "sparse",
+    "run_id": "latest_default",
+    "topic_id": "203",
+    "topic": "fractured wrist healing",
+    "narrative": "A young boxer broke his wrist. He needs to know when he will recover completely and be able to fully use his wrist.",
+    "question": "what is the timeframe for healing a fractured wrist?",
+    "final_answer_text": "The typical healing timeline for a wrist fracture in clinical terms is approximately four months for consolidation , although this can vary based on the type of fracture, treatment method, and individual factors such as age and overall health . Proper immobilization is crucial for healing, as improper treatment or displacement can lead to complications, including nonunion, which occurs in about 10-15% of cases treated non-surgically . Advanced fixation methods like small-cannulated compression screws and arthroscopic techniques can significantly reduce surgical morbidity and promote faster healing and rehabilitation, allowing athletes to return to competition more quickly . Methods to accelerate healing, such as axial micromovement, electromagnetic stimulation, and growth factors, can reduce healing time by up to 20-30%, equivalent to several weeks . However, the success of these methods can depend on the specific fracture and patient characteristics .",
+    "final_answer_with_citations": "The typical healing timeline for a wrist fracture in clinical terms is approximately four months for consolidation , although this can vary based on the type of fracture, treatment method, and individual factors such as age and overall health . [31547981,35808888] Proper immobilization is crucial for healing, as improper treatment or displacement can lead to complications, including nonunion, which occurs in about 10-15% of cases treated non-surgically . [26051764] Advanced fixation methods like small-cannulated compression screws and arthroscopic techniques can significantly reduce surgical morbidity and promote faster healing and rehabilitation, allowing athletes to return to competition more quickly . [11227704] Methods to accelerate healing, such as axial micromovement, electromagnetic stimulation, and growth factors, can reduce healing time by up to 20-30%, equivalent to several weeks . [38911851] However, the success of these methods can depend on the specific fracture and patient characteristics . [38911851]",
+    "response_sentences": [
+      {
+        "text": "The typical healing timeline for a wrist fracture in clinical terms is approximately four months for consolidation , although this can vary based on the type of fracture, treatment method, and individual factors such as age and overall health .",
+        "citations": [
+          31547981,
+          35808888
+        ]
+      },
+      {
+        "text": "Proper immobilization is crucial for healing, as improper treatment or displacement can lead to complications, including nonunion, which occurs in about 10-15% of cases treated non-surgically .",
+        "citations": [
+          26051764
+        ]
+      },
+      {
+        "text": "Advanced fixation methods like small-cannulated compression screws and arthroscopic techniques can significantly reduce surgical morbidity and promote faster healing and rehabilitation, allowing athletes to return to competition more quickly .",
+        "citations": [
+          11227704
+        ]
+      },
+      {
+        "text": "Methods to accelerate healing, such as axial micromovement, electromagnetic stimulation, and growth factors, can reduce healing time by up to 20-30%, equivalent to several weeks .",
+        "citations": [
+          38911851
+        ]
+      },
+      {
+        "text": "However, the success of these methods can depend on the specific fracture and patient characteristics .",
+        "citations": [
+          38911851
+        ]
+      }
+    ],
+    "references": [
+      "31547981",
+      "35808888",
+      "26051764",
+      "11227704",
+      "38911851"
+    ]
+  },
+  {
+    "pipeline": "sparse",
+    "run_id": "latest_default",
+    "topic_id": "204",
+    "topic": "anastrozole cancer prevention",
+    "narrative": "a patient with family history of cancer was prescribed anastrozole for cancer prevention. She developed a skin rash and is wondering if discontinuing anastrozole will increase her chances of getting cancer.",
+    "question": "what if i decline anastrozole what are chances of cancer?",
+    "final_answer_text": "Discontinuing anastrozole due to side effects like a skin rash does not increase cancer risk based on studies such as the IBIS-II prevention trial, which found that anastrozole effectively reduces breast cancer risk in high-risk postmenopausal women . However, for women with a family history of cancer, particularly those carrying BRCA1 or BRCA2 gene mutations, discontinuing anastrozole may increase their risk, though specific quantitative effects are not provided in the given evidence . Early symptoms and side effects can affect adherence to anastrozole, potentially influencing long-term outcomes, but the exact impact on cancer risk if discontinued remains unclear . Additionally, while anastrozole effectively lowers estrogen levels and has been shown to improve disease-free survival in clinical trials, the evidence does not directly address the consequences of discontinuation for cancer prevention . Therefore, while it is advisable to manage side effects such as skin rash, patients should consult their healthcare providers to weigh the risks and benefits of continuing anastrozole treatment .",
+    "final_answer_with_citations": "Discontinuing anastrozole due to side effects like a skin rash does not increase cancer risk based on studies such as the IBIS-II prevention trial, which found that anastrozole effectively reduces breast cancer risk in high-risk postmenopausal women . [15585070,29126161] However, for women with a family history of cancer, particularly those carrying BRCA1 or BRCA2 gene mutations, discontinuing anastrozole may increase their risk, though specific quantitative effects are not provided in the given evidence . [19757764] Early symptoms and side effects can affect adherence to anastrozole, potentially influencing long-term outcomes, but the exact impact on cancer risk if discontinued remains unclear . [29126161,19903442] Additionally, while anastrozole effectively lowers estrogen levels and has been shown to improve disease-free survival in clinical trials, the evidence does not directly address the consequences of discontinuation for cancer prevention . [8824462,12722879] Therefore, while it is advisable to manage side effects such as skin rash, patients should consult their healthcare providers to weigh the risks and benefits of continuing anastrozole treatment . [15585070,19903442]",
+    "response_sentences": [
+      {
+        "text": "Discontinuing anastrozole due to side effects like a skin rash does not increase cancer risk based on studies such as the IBIS-II prevention trial, which found that anastrozole effectively reduces breast cancer risk in high-risk postmenopausal women .",
+        "citations": [
+          15585070,
+          29126161
+        ]
+      },
+      {
+        "text": "However, for women with a family history of cancer, particularly those carrying BRCA1 or BRCA2 gene mutations, discontinuing anastrozole may increase their risk, though specific quantitative effects are not provided in the given evidence .",
+        "citations": [
+          19757764
+        ]
+      },
+      {
+        "text": "Early symptoms and side effects can affect adherence to anastrozole, potentially influencing long-term outcomes, but the exact impact on cancer risk if discontinued remains unclear .",
+        "citations": [
+          29126161,
+          19903442
+        ]
+      },
+      {
+        "text": "Additionally, while anastrozole effectively lowers estrogen levels and has been shown to improve disease-free survival in clinical trials, the evidence does not directly address the consequences of discontinuation for cancer prevention .",
+        "citations": [
+          8824462,
+          12722879
+        ]
+      },
+      {
+        "text": "Therefore, while it is advisable to manage side effects such as skin rash, patients should consult their healthcare providers to weigh the risks and benefits of continuing anastrozole treatment .",
+        "citations": [
+          15585070,
+          19903442
+        ]
+      }
+    ],
+    "references": [
+      "15585070",
+      "29126161",
+      "19757764",
+      "19903442",
+      "8824462",
+      "12722879"
+    ]
+  },
+  {
+    "pipeline": "sparse",
+    "run_id": "latest_default",
+    "topic_id": "205",
+    "topic": "progesterone levels for conceiving",
+    "narrative": "A 31-year-old woman is unable to conceive. She is looking for treatments to increase her progesterone levels.",
+    "question": "what drug can a person with low progesterone levels and trying to conceive take?",
+    "final_answer_text": "For a 31-year-old woman looking to conceive with low progesterone levels, pharmacological interventions such as progesterone vaginal suppositories (PVS) are recommended, as they have shown a 77% conception rate in cases of pure luteal phase defects compared to 11% with ovulation-inducing drugs . Daily intramuscular progesterone injections of 50 mg in oil for 5 days have also been associated with higher conception rates in IVF cycles . However, it is crucial to measure progesterone levels in the luteal phase, as levels greater than 30 nmol/L indicate successful ovulation and are crucial for conception . While the evidence does not directly address treatments for conception, studies suggest that low progesterone levels on the day of embryo transfer are associated with poorer pregnancy outcomes, indicating the importance of maintaining adequate progesterone levels during the luteal phase .",
+    "final_answer_with_citations": "For a 31-year-old woman looking to conceive with low progesterone levels, pharmacological interventions such as progesterone vaginal suppositories (PVS) are recommended, as they have shown a 77% conception rate in cases of pure luteal phase defects compared to 11% with ovulation-inducing drugs . [30503728] Daily intramuscular progesterone injections of 50 mg in oil for 5 days have also been associated with higher conception rates in IVF cycles . [3926544] However, it is crucial to measure progesterone levels in the luteal phase, as levels greater than 30 nmol/L indicate successful ovulation and are crucial for conception . [31296604] While the evidence does not directly address treatments for conception, studies suggest that low progesterone levels on the day of embryo transfer are associated with poorer pregnancy outcomes, indicating the importance of maintaining adequate progesterone levels during the luteal phase . [34177806]",
+    "response_sentences": [
+      {
+        "text": "For a 31-year-old woman looking to conceive with low progesterone levels, pharmacological interventions such as progesterone vaginal suppositories (PVS) are recommended, as they have shown a 77% conception rate in cases of pure luteal phase defects compared to 11% with ovulation-inducing drugs .",
+        "citations": [
+          30503728
+        ]
+      },
+      {
+        "text": "Daily intramuscular progesterone injections of 50 mg in oil for 5 days have also been associated with higher conception rates in IVF cycles .",
+        "citations": [
+          3926544
+        ]
+      },
+      {
+        "text": "However, it is crucial to measure progesterone levels in the luteal phase, as levels greater than 30 nmol/L indicate successful ovulation and are crucial for conception .",
+        "citations": [
+          31296604
+        ]
+      },
+      {
+        "text": "While the evidence does not directly address treatments for conception, studies suggest that low progesterone levels on the day of embryo transfer are associated with poorer pregnancy outcomes, indicating the importance of maintaining adequate progesterone levels during the luteal phase .",
+        "citations": [
+          34177806
+        ]
+      }
+    ],
+    "references": [
+      "30503728",
+      "3926544",
+      "31296604",
+      "34177806"
+    ]
+  },
+  {
+    "pipeline": "sparse",
+    "run_id": "latest_default",
+    "topic_id": "206",
+    "topic": "complex lateral meniscus tear",
+    "narrative": "A 32-year-old man with knee pain was diagnosed with complex lateral meniscus tear. He is looking for an explanation of his condition and for best treatments.",
+    "question": "what does a complex tear involving the lateral meniscus mean? How to treat?",
+    "final_answer_text": "A complex tear involving the lateral meniscus, often occurring in the posterior horn and midbody, can lead to significant knee pain and complications such as lateral meniscal cysts . For younger, active patients, surgical repair techniques like arthroscopic repair, inside-out, outside-in, or all-inside strategies are preferred, as they offer better long-term outcomes and reduce the risk of osteoarthritis . However, in cases where repair is not feasible, such as in degenerative tears or when combined with knee osteoarthritis, conservative management with physical therapy, NSAIDs, and weight loss may be recommended . In patients with concomitant ACL tears, surgical interventions like simultaneous high tibial osteotomy and lateral meniscal allograft transplantation can be considered . Additionally, specific surgical techniques such as the Meniscal Viper for full radial tears and in situ pull-out suture repairs for posterior horn root avulsions have shown promising results . Despite the variety of treatment approaches, careful clinical evaluation and precise tear classification are crucial for optimal outcomes .",
+    "final_answer_with_citations": "A complex tear involving the lateral meniscus, often occurring in the posterior horn and midbody, can lead to significant knee pain and complications such as lateral meniscal cysts . [25722908] For younger, active patients, surgical repair techniques like arthroscopic repair, inside-out, outside-in, or all-inside strategies are preferred, as they offer better long-term outcomes and reduce the risk of osteoarthritis . [36311326,33833044] However, in cases where repair is not feasible, such as in degenerative tears or when combined with knee osteoarthritis, conservative management with physical therapy, NSAIDs, and weight loss may be recommended . [36872031,30195704] In patients with concomitant ACL tears, surgical interventions like simultaneous high tibial osteotomy and lateral meniscal allograft transplantation can be considered . [30210948] Additionally, specific surgical techniques such as the Meniscal Viper for full radial tears and in situ pull-out suture repairs for posterior horn root avulsions have shown promising results . [27274444,24647503] Despite the variety of treatment approaches, careful clinical evaluation and precise tear classification are crucial for optimal outcomes . [38519603]",
+    "response_sentences": [
+      {
+        "text": "A complex tear involving the lateral meniscus, often occurring in the posterior horn and midbody, can lead to significant knee pain and complications such as lateral meniscal cysts .",
+        "citations": [
+          25722908
+        ]
+      },
+      {
+        "text": "For younger, active patients, surgical repair techniques like arthroscopic repair, inside-out, outside-in, or all-inside strategies are preferred, as they offer better long-term outcomes and reduce the risk of osteoarthritis .",
+        "citations": [
+          36311326,
+          33833044
+        ]
+      },
+      {
+        "text": "However, in cases where repair is not feasible, such as in degenerative tears or when combined with knee osteoarthritis, conservative management with physical therapy, NSAIDs, and weight loss may be recommended .",
+        "citations": [
+          36872031,
+          30195704
+        ]
+      },
+      {
+        "text": "In patients with concomitant ACL tears, surgical interventions like simultaneous high tibial osteotomy and lateral meniscal allograft transplantation can be considered .",
+        "citations": [
+          30210948
+        ]
+      },
+      {
+        "text": "Additionally, specific surgical techniques such as the Meniscal Viper for full radial tears and in situ pull-out suture repairs for posterior horn root avulsions have shown promising results .",
+        "citations": [
+          27274444,
+          24647503
+        ]
+      },
+      {
+        "text": "Despite the variety of treatment approaches, careful clinical evaluation and precise tear classification are crucial for optimal outcomes .",
+        "citations": [
+          38519603
+        ]
+      }
+    ],
+    "references": [
+      "25722908",
+      "36311326",
+      "33833044",
+      "36872031",
+      "30195704",
+      "30210948",
+      "27274444",
+      "24647503",
+      "38519603"
+    ]
+  },
+  {
+    "pipeline": "sparse",
+    "run_id": "latest_default",
+    "topic_id": "207",
+    "topic": "reduce gastric acid secretion",
+    "narrative": "A patient with gastric polyps and gastric acid hypersecretion is looking for alternatives to proton pump inhibitors.",
+    "question": "what medicine besides proton pump inhibitor can retard stomach acid? I have polyps in stomach",
+    "final_answer_text": "Rebamipide has been shown to reduce gastric acid and eliminate hyperplastic gastric polyps in patients with liver cirrhosis , providing a promising alternative. Potassium-competitive acid blockers (P-CABs) like vonoprazan offer stronger inhibition of gastric acid secretion compared to PPIs, with fewer side effects such as fundic gland polyps and hyperplasia . Additionally, histamine-2 receptor antagonists (H2RAs) can be considered for managing acid hypersecretion, though they may not be as effective as PPIs in some cases . While these alternatives show promise, their efficacy and long-term outcomes in patients with gastric polyps need further evaluation . For patients with refractory GERD and hypersecretion, other treatments such as prokinetics, alginates, and antacids might also be beneficial . Given the potential risks associated with prolonged PPI use, exploring these alternatives could help manage gastric acid levels more safely .",
+    "final_answer_with_citations": "Rebamipide has been shown to reduce gastric acid and eliminate hyperplastic gastric polyps in patients with liver cirrhosis , providing a promising alternative. [33790706] Potassium-competitive acid blockers (P-CABs) like vonoprazan offer stronger inhibition of gastric acid secretion compared to PPIs, with fewer side effects such as fundic gland polyps and hyperplasia . [39507107,32327613] Additionally, histamine-2 receptor antagonists (H2RAs) can be considered for managing acid hypersecretion, though they may not be as effective as PPIs in some cases . [34790683,15496213,11403533] While these alternatives show promise, their efficacy and long-term outcomes in patients with gastric polyps need further evaluation . [39642915,29888239] For patients with refractory GERD and hypersecretion, other treatments such as prokinetics, alginates, and antacids might also be beneficial . [34790683] Given the potential risks associated with prolonged PPI use, exploring these alternatives could help manage gastric acid levels more safely . [28930292,24124705,19006608]",
+    "response_sentences": [
+      {
+        "text": "Rebamipide has been shown to reduce gastric acid and eliminate hyperplastic gastric polyps in patients with liver cirrhosis , providing a promising alternative.",
+        "citations": [
+          33790706
+        ]
+      },
+      {
+        "text": "Potassium-competitive acid blockers (P-CABs) like vonoprazan offer stronger inhibition of gastric acid secretion compared to PPIs, with fewer side effects such as fundic gland polyps and hyperplasia .",
+        "citations": [
+          39507107,
+          32327613
+        ]
+      },
+      {
+        "text": "Additionally, histamine-2 receptor antagonists (H2RAs) can be considered for managing acid hypersecretion, though they may not be as effective as PPIs in some cases .",
+        "citations": [
+          34790683,
+          15496213,
+          11403533
+        ]
+      },
+      {
+        "text": "While these alternatives show promise, their efficacy and long-term outcomes in patients with gastric polyps need further evaluation .",
+        "citations": [
+          39642915,
+          29888239
+        ]
+      },
+      {
+        "text": "For patients with refractory GERD and hypersecretion, other treatments such as prokinetics, alginates, and antacids might also be beneficial .",
+        "citations": [
+          34790683
+        ]
+      },
+      {
+        "text": "Given the potential risks associated with prolonged PPI use, exploring these alternatives could help manage gastric acid levels more safely .",
+        "citations": [
+          28930292,
+          24124705,
+          19006608
+        ]
+      }
+    ],
+    "references": [
+      "33790706",
+      "39507107",
+      "32327613",
+      "34790683",
+      "15496213",
+      "11403533",
+      "39642915",
+      "29888239",
+      "28930292",
+      "24124705",
+      "19006608"
+    ]
+  },
+  {
+    "pipeline": "sparse",
+    "run_id": "latest_default",
+    "topic_id": "208",
+    "topic": "leg crepitus and pain",
+    "narrative": "A 57-year-old male with left lower extremity swelling, pain and crepitus is looking for potential causes and treatments for his condition.",
+    "question": "my legs are in severe pain always they make cracking noises; what is this and how to stop it?",
+    "final_answer_text": "A 57-year-old male experiencing left lower extremity swelling, pain, and crepitus may be suffering from conditions such as a traumatic abdominal wall hernia with isolated nerve compression syndrome, as seen in a similar case , or ischemic episodes due to cardiovascular issues . The prognosis-oriented approach might be more beneficial in understanding and managing his symptoms . Surgical interventions, like postoperative repair in the hernia case, can lead to immediate pain resolution and functional improvement , while conservative measures, such as lifestyle changes for ischemic heart disease , can also be effective. Chronic venous disease, characterized by incompetent leg perforating veins, might contribute to his symptoms, and surgical management techniques could be considered . Additionally, the presence of leg crepitus and pain could be indicative of non-arthritic hip pain, for which physical therapy is recommended . However, it is crucial to rule out other potential causes, such as deep vein thrombosis, which can be diagnosed via ultrasound and managed with anticoagulation therapy . Given the complexity of his symptoms, an individualized treatment plan incorporating both surgical and conservative approaches may be necessary to alleviate his pain and improve his quality of life .",
+    "final_answer_with_citations": "A 57-year-old male experiencing left lower extremity swelling, pain, and crepitus may be suffering from conditions such as a traumatic abdominal wall hernia with isolated nerve compression syndrome, as seen in a similar case , or ischemic episodes due to cardiovascular issues . [19008179,10546137] The prognosis-oriented approach might be more beneficial in understanding and managing his symptoms . [34346660] Surgical interventions, like postoperative repair in the hernia case, can lead to immediate pain resolution and functional improvement , while conservative measures, such as lifestyle changes for ischemic heart disease , can also be effective. [19008179,10546137] Chronic venous disease, characterized by incompetent leg perforating veins, might contribute to his symptoms, and surgical management techniques could be considered . [10192031] Additionally, the presence of leg crepitus and pain could be indicative of non-arthritic hip pain, for which physical therapy is recommended . [37777849] However, it is crucial to rule out other potential causes, such as deep vein thrombosis, which can be diagnosed via ultrasound and managed with anticoagulation therapy . [22082302] Given the complexity of his symptoms, an individualized treatment plan incorporating both surgical and conservative approaches may be necessary to alleviate his pain and improve his quality of life . [21647468,10192031]",
+    "response_sentences": [
+      {
+        "text": "A 57-year-old male experiencing left lower extremity swelling, pain, and crepitus may be suffering from conditions such as a traumatic abdominal wall hernia with isolated nerve compression syndrome, as seen in a similar case , or ischemic episodes due to cardiovascular issues .",
+        "citations": [
+          19008179,
+          10546137
+        ]
+      },
+      {
+        "text": "The prognosis-oriented approach might be more beneficial in understanding and managing his symptoms .",
+        "citations": [
+          34346660
+        ]
+      },
+      {
+        "text": "Surgical interventions, like postoperative repair in the hernia case, can lead to immediate pain resolution and functional improvement , while conservative measures, such as lifestyle changes for ischemic heart disease , can also be effective.",
+        "citations": [
+          19008179,
+          10546137
+        ]
+      },
+      {
+        "text": "Chronic venous disease, characterized by incompetent leg perforating veins, might contribute to his symptoms, and surgical management techniques could be considered .",
+        "citations": [
+          10192031
+        ]
+      },
+      {
+        "text": "Additionally, the presence of leg crepitus and pain could be indicative of non-arthritic hip pain, for which physical therapy is recommended .",
+        "citations": [
+          37777849
+        ]
+      },
+      {
+        "text": "However, it is crucial to rule out other potential causes, such as deep vein thrombosis, which can be diagnosed via ultrasound and managed with anticoagulation therapy .",
+        "citations": [
+          22082302
+        ]
+      },
+      {
+        "text": "Given the complexity of his symptoms, an individualized treatment plan incorporating both surgical and conservative approaches may be necessary to alleviate his pain and improve his quality of life .",
+        "citations": [
+          21647468,
+          10192031
+        ]
+      }
+    ],
+    "references": [
+      "19008179",
+      "10546137",
+      "34346660",
+      "10192031",
+      "37777849",
+      "22082302",
+      "21647468"
+    ]
+  },
+  {
+    "pipeline": "sparse",
+    "run_id": "latest_default",
+    "topic_id": "209",
+    "topic": "gastritis treatment",
+    "narrative": "A patient with gastritis on famotidine wants to confirm this is the best treatment for her condition.",
+    "question": "is pepcid good for stomach inflammation? what is best to take for stomach inflammation?",
+    "final_answer_text": "Famotidine, while effective for treating dyspepsia and heartburn , is not specifically recommended for gastritis treatment . Studies indicate that famotidine may not be the optimal choice for managing gastritis, especially in cases where Helicobacter pylori infection is present, as it does not address the underlying inflammatory mechanisms . Alternative treatments such as misoprostol, a prostaglandin analog, may offer better relief for NSAID-induced gastric ulcers and inflammation . Additionally, lifestyle changes, including a plant-based diet and regular physical activity, are effective first-line interventions for reducing chronic low-grade inflammation , which can be beneficial in managing gastritis. Probiotics, particularly Lactobacillus and Bifidobacterium, also show potential for healing non-infectious gastric ulcers by regulating the immune response and reducing inflammation, offering a non-invasive alternative to conventional treatments . Therefore, while famotidine can provide symptom relief, it may not be the best long-term treatment for gastritis, and a multidisciplinary approach involving lifestyle modifications and other medications may be necessary for optimal management .",
+    "final_answer_with_citations": "Famotidine, while effective for treating dyspepsia and heartburn , is not specifically recommended for gastritis treatment . [8680222,18446422,39192900] Studies indicate that famotidine may not be the optimal choice for managing gastritis, especially in cases where Helicobacter pylori infection is present, as it does not address the underlying inflammatory mechanisms . [11718528] Alternative treatments such as misoprostol, a prostaglandin analog, may offer better relief for NSAID-induced gastric ulcers and inflammation . [1976294] Additionally, lifestyle changes, including a plant-based diet and regular physical activity, are effective first-line interventions for reducing chronic low-grade inflammation , which can be beneficial in managing gastritis. [23346399] Probiotics, particularly Lactobacillus and Bifidobacterium, also show potential for healing non-infectious gastric ulcers by regulating the immune response and reducing inflammation, offering a non-invasive alternative to conventional treatments . [39190267] Therefore, while famotidine can provide symptom relief, it may not be the best long-term treatment for gastritis, and a multidisciplinary approach involving lifestyle modifications and other medications may be necessary for optimal management . [39192900,23346399,39190267]",
+    "response_sentences": [
+      {
+        "text": "Famotidine, while effective for treating dyspepsia and heartburn , is not specifically recommended for gastritis treatment .",
+        "citations": [
+          8680222,
+          18446422,
+          39192900
+        ]
+      },
+      {
+        "text": "Studies indicate that famotidine may not be the optimal choice for managing gastritis, especially in cases where Helicobacter pylori infection is present, as it does not address the underlying inflammatory mechanisms .",
+        "citations": [
+          11718528
+        ]
+      },
+      {
+        "text": "Alternative treatments such as misoprostol, a prostaglandin analog, may offer better relief for NSAID-induced gastric ulcers and inflammation .",
+        "citations": [
+          1976294
+        ]
+      },
+      {
+        "text": "Additionally, lifestyle changes, including a plant-based diet and regular physical activity, are effective first-line interventions for reducing chronic low-grade inflammation , which can be beneficial in managing gastritis.",
+        "citations": [
+          23346399
+        ]
+      },
+      {
+        "text": "Probiotics, particularly Lactobacillus and Bifidobacterium, also show potential for healing non-infectious gastric ulcers by regulating the immune response and reducing inflammation, offering a non-invasive alternative to conventional treatments .",
+        "citations": [
+          39190267
+        ]
+      },
+      {
+        "text": "Therefore, while famotidine can provide symptom relief, it may not be the best long-term treatment for gastritis, and a multidisciplinary approach involving lifestyle modifications and other medications may be necessary for optimal management .",
+        "citations": [
+          39192900,
+          23346399,
+          39190267
+        ]
+      }
+    ],
+    "references": [
+      "8680222",
+      "18446422",
+      "39192900",
+      "11718528",
+      "1976294",
+      "23346399",
+      "39190267"
+    ]
+  },
+  {
+    "pipeline": "sparse",
+    "run_id": "latest_default",
+    "topic_id": "210",
+    "topic": "treatment for diabetic foot ulcer with osteomyelitis",
+    "narrative": "a 63‐year‐old woman with a 10‐year history of type 2 diabetes has developed a foot ulcer with a progressively worsening infection and MRI-confirmed osteomyelitis. She is asking her healthcare provider how the available treatments will affect her quality of life.",
+    "question": "how will treatment for diabetic foot ulcer with osteomyelitis affect life quality?",
+    "final_answer_text": "The management of diabetic foot ulcer complicated by osteomyelitis in a 63-year-old woman with a 10-year history of type 2 diabetes involves a multidisciplinary approach to improve her quality of life . Effective treatments include a combination of surgical interventions such as debridement, bone resection, and vascular procedures, along with antimicrobial therapy . These interventions aim to prevent the need for major amputations, which can significantly reduce quality of life . Additionally, conservative therapies like negative-pressure wound therapy and advanced dressings can enhance wound healing and reduce complications . However, the burden of these conditions on quality of life is substantial, causing pain, insomnia, and impacting physical, emotional, and social functions . Early diagnosis and multidisciplinary care, including glycemic control, wound offloading, and patient education, are crucial for optimizing treatment outcomes and maintaining quality of life . Despite the challenges, comprehensive nursing models and interdisciplinary collaboration can significantly improve healing rates and reduce amputation rates, thereby enhancing overall quality of life .",
+    "final_answer_with_citations": "The management of diabetic foot ulcer complicated by osteomyelitis in a 63-year-old woman with a 10-year history of type 2 diabetes involves a multidisciplinary approach to improve her quality of life . [36578871,28346194,20610846] Effective treatments include a combination of surgical interventions such as debridement, bone resection, and vascular procedures, along with antimicrobial therapy . [18220646,15493949,28346194] These interventions aim to prevent the need for major amputations, which can significantly reduce quality of life . [37304194,36931878,27225697] Additionally, conservative therapies like negative-pressure wound therapy and advanced dressings can enhance wound healing and reduce complications . [37551298,18577133,37735855] However, the burden of these conditions on quality of life is substantial, causing pain, insomnia, and impacting physical, emotional, and social functions . [15129612,9777967,32003676] Early diagnosis and multidisciplinary care, including glycemic control, wound offloading, and patient education, are crucial for optimizing treatment outcomes and maintaining quality of life . [36578871,24128251,15306991] Despite the challenges, comprehensive nursing models and interdisciplinary collaboration can significantly improve healing rates and reduce amputation rates, thereby enhancing overall quality of life . [38941405,35753291,37735855]",
+    "response_sentences": [
+      {
+        "text": "The management of diabetic foot ulcer complicated by osteomyelitis in a 63-year-old woman with a 10-year history of type 2 diabetes involves a multidisciplinary approach to improve her quality of life .",
+        "citations": [
+          36578871,
+          28346194,
+          20610846
+        ]
+      },
+      {
+        "text": "Effective treatments include a combination of surgical interventions such as debridement, bone resection, and vascular procedures, along with antimicrobial therapy .",
+        "citations": [
+          18220646,
+          15493949,
+          28346194
+        ]
+      },
+      {
+        "text": "These interventions aim to prevent the need for major amputations, which can significantly reduce quality of life .",
+        "citations": [
+          37304194,
+          36931878,
+          27225697
+        ]
+      },
+      {
+        "text": "Additionally, conservative therapies like negative-pressure wound therapy and advanced dressings can enhance wound healing and reduce complications .",
+        "citations": [
+          37551298,
+          18577133,
+          37735855
+        ]
+      },
+      {
+        "text": "However, the burden of these conditions on quality of life is substantial, causing pain, insomnia, and impacting physical, emotional, and social functions .",
+        "citations": [
+          15129612,
+          9777967,
+          32003676
+        ]
+      },
+      {
+        "text": "Early diagnosis and multidisciplinary care, including glycemic control, wound offloading, and patient education, are crucial for optimizing treatment outcomes and maintaining quality of life .",
+        "citations": [
+          36578871,
+          24128251,
+          15306991
+        ]
+      },
+      {
+        "text": "Despite the challenges, comprehensive nursing models and interdisciplinary collaboration can significantly improve healing rates and reduce amputation rates, thereby enhancing overall quality of life .",
+        "citations": [
+          38941405,
+          35753291,
+          37735855
+        ]
+      }
+    ],
+    "references": [
+      "36578871",
+      "28346194",
+      "20610846",
+      "18220646",
+      "15493949",
+      "37304194",
+      "36931878",
+      "27225697",
+      "37551298",
+      "18577133",
+      "37735855",
+      "15129612",
+      "9777967",
+      "32003676",
+      "24128251",
+      "15306991",
+      "38941405",
+      "35753291"
+    ]
+  }
+]

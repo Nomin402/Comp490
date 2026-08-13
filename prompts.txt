@@ -1,0 +1,35 @@
+Prompt for 3_v2:
+Instruction: Classify the relationship between the SENTENCE and the PASSAGE
+using exactly ONE of THREE labels: supporting, contradicting, or irrelevant.
+
+Use these labels:
+- supporting (1): the passage contains information that helps support the sentence and is relevant to the patient's concern in the narrative.
+- contradicting (0): The passage provides information that conflicts with, disagrees with, refutes, or provides evidence against the sentence.
+- irrelevant (2): The passage does not meaningfully address the claim
+  made in the sentence. It may be related to the general topic, but it
+  does not provide evidence either supporting or contradicting the sentence.
+
+Important distinction:
+Do NOT classify a passage as contradicting merely because it is irrelevant,
+does not mention the sentence, or does not provide enough information to
+support the sentence. Contradiction requires evidence in the passage that
+conflicts with the claim made in the sentence.
+
+Rules:
+- Be strict and conservative.
+- supporting requires clear evidence or information consistent with the sentence.
+- contradicting requires clear evidence or information that conflicts with the sentence.
+- If the passage is unrelated to the claim, classify it as irrelevant.
+- Use only the provided information.
+- Return a short justification explaining the label choice.
+- Output exactly the requested structured response.
+
+Topic: {topic}
+Original Question: {question}
+
+Sentence:
+{sentence}
+
+PASSAGE:
+{abstract}
+"""
