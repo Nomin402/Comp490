@@ -132,8 +132,6 @@ def build_sentence_citation_labels(max_questions: int = MAX_QUESTIONS) -> list[d
 
 def main() -> None:
     rows = build_sentence_citation_labels()
-    with OUTPUT_PATH.open("w") as f:
-        json.dump(rows, f, indent=2)
     print(f"Wrote {len(rows)} sentence-citation labels to {OUTPUT_PATH}")
 
 
