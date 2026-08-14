@@ -1,4 +1,6 @@
 import json
+import os
+import jsonlines
 from pathlib import Path
 
 from openai import OpenAI
@@ -7,8 +9,9 @@ from tqdm import tqdm
 
 ARTICLES_PATH = Path("LLM_classification_output_formatted.json")
 ANSWERS_PATH = Path("w_q0_sparse_final_answers.json")
-OUTPUT_PATH = Path("sentence_citation_labels_v2.1_10.json")
+OUTPUT_PATH = Path("sentence_citation_labels_v2.2_10.json")
 MODEL_NAME = "ggml-org/gemma-4-26B-A4B-it-GGUF"
+LLAMA_CPP_HOST = os.getenv("LLAMA_CPP_HOST", "localhost:11434")
 MAX_QUESTIONS = 10
 
 
@@ -19,7 +22,7 @@ class CitationLabel(BaseModel):
 
 client = OpenAI(
     api_key="--- IGNORE ---",
-    base_url="http://localhost:11434/v1",
+    base_url=f"http://{LLAMA_CPP_HOST}/v1",
 )
 
 
@@ -87,42 +90,43 @@ def build_sentence_citation_labels(max_questions: int = MAX_QUESTIONS) -> list[d
         items = json.load(f)
 
     rows: list[dict] = []
-    for item in tqdm(items[:max_questions], total=max_questions):
-        for sentence_entry in item.get("response_sentences", []):
-            sentence_text = sentence_entry.get("text", "").strip()
-            references = item.get("references", [])
+    with jsonlines.open(OUTPUT_PATH, mode="a") as writer:
+        for item in tqdm(items[:max_questions], total=max_questions):
+            for sentence_entry in item.get("response_sentences", []):
+                sentence_text = sentence_entry.get("text", "").strip()
+                references = item.get("references", [])
 
-            for citation in references:
-                citation_uri = str(citation)
-                abstract = articles_by_uri.get(citation_uri)
-                if abstract is None:
-                    continue
+                for citation in tqdm(references):
+                    citation_uri = str(citation)
+                    abstract = articles_by_uri.get(citation_uri)
+                    if abstract is None:
+                        continue
 
-                parsed = get_label(
-                    topic=item.get("topic", ""),
-                    question=item.get("question", ""),
-                    sentence=sentence_text,
-                    abstract=abstract,
-                )
+                    parsed = get_label(
+                        topic=item.get("topic", ""),
+                        question=item.get("question", ""),
+                        sentence=sentence_text,
+                        abstract=abstract,
+                    )
 
-                rows.append(
-                    {
-                        "topic_id": item.get("topic_id"),
-                        "topic": item.get("topic"),
-                        "question": item.get("question"),
-                        "sentence": sentence_text,
-                        "citation": citation_uri,
-                        "abstract": abstract,
-                        "label": (
-                            "supporting"
-                            if parsed.label == 1
-                            else "contradicting"
-                            if parsed.label == 0
-                            else "irrelevant"
-                        ),
-                        "justification": parsed.justification,
-                    }
-                )
+                    writer.write(
+                        {
+                            "topic_id": item.get("topic_id"),
+                            "topic": item.get("topic"),
+                            "question": item.get("question"),
+                            "sentence": sentence_text,
+                            "citation": citation_uri,
+                            "abstract": abstract,
+                            "label": (
+                                "supporting"
+                                if parsed.label == 1
+                                else "contradicting"
+                                if parsed.label == 0
+                                else "irrelevant"
+                            ),
+                            "justification": parsed.justification,
+                        }
+                    )
 
     return rows
 
