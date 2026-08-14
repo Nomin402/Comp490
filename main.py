@@ -108,25 +108,24 @@ def build_sentence_citation_labels(max_questions: int = MAX_QUESTIONS) -> list[d
                         sentence=sentence_text,
                         abstract=abstract,
                     )
-
-                    writer.write(
-                        {
-                            "topic_id": item.get("topic_id"),
-                            "topic": item.get("topic"),
-                            "question": item.get("question"),
-                            "sentence": sentence_text,
-                            "citation": citation_uri,
-                            "abstract": abstract,
-                            "label": (
-                                "supporting"
-                                if parsed.label == 1
-                                else "contradicting"
-                                if parsed.label == 0
-                                else "irrelevant"
-                            ),
-                            "justification": parsed.justification,
-                        }
-                    )
+                    annotation = {
+                        "topic_id": item.get("topic_id"),
+                        "topic": item.get("topic"),
+                        "question": item.get("question"),
+                        "sentence": sentence_text,
+                        "citation": citation_uri,
+                        "abstract": abstract,
+                        "label": (
+                            "supporting"
+                            if parsed.label == 1
+                            else "contradicting"
+                            if parsed.label == 0
+                            else "irrelevant"
+                        ),
+                        "justification": parsed.justification,
+                    }
+                    writer.write(annotation)
+                    print(f"Processed sentence-citation pair: {annotation}")
 
     return rows
 
