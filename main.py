@@ -9,8 +9,9 @@ from tqdm import tqdm
 
 ARTICLES_PATH = Path("LLM_classification_output_formatted.json")
 ANSWERS_PATH = Path("w_q0_sparse_final_answers.json")
-OUTPUT_PATH = Path("sentence_citation_labels_v3.0_1.json")
-MODEL_NAME = "ggml-org/gemma-4-26B-A4B-it-GGUF"
+OUTPUT_PATH = Path("sentence_citation_labels_v3.0_qwen_sentence_citation.json")
+MODEL_NAME_GEMMA = "ggml-org/gemma-4-26B-A4B-it-GGUF"
+MODEL_NAME_QWEN = "Qwen/Qwen2.5-32B-Instruct-GGUF:Q5_K_M"
 LLAMA_CPP_HOST = os.getenv("LLAMA_CPP_HOST", "localhost:11434")
 
 
@@ -64,7 +65,7 @@ Output ONLY a valid JSON object matching the following structure:
 
 """
     response = client.chat.completions.parse(
-        model=MODEL_NAME,
+        model=MODEL_NAME_QWEN,
         messages=[{"role": "user", "content": prompt}],
         response_format=CitationLabel,
     )
@@ -85,13 +86,14 @@ def build_sentence_citation_labels(start_question: int,
             topic_id = item.get("topic_id", "")
             topic = item.get("topic", "")
             question = item.get("question", "")
-            references = item.get("references", [])
 
             #Every sentence in the response sentences
             for sentence_entry in tqdm(item.get("response_sentences", []), desc="Sentences"):
                 sentence_text = sentence_entry.get("text", "").strip()
 
-                for citation in references:
+                citations = sentence_entry.get("citations", [])
+
+                for citation in citations:
                     citation_uri = str(citation)
                     abstract = articles_by_uri.get(citation_uri)
                     if abstract is None:
@@ -113,7 +115,6 @@ def build_sentence_citation_labels(start_question: int,
                     }
                     writer.write(annotation)
                     rows.append(annotation)
-                    print(f"Processed sentence-citation pair: {annotation}")
 
     return rows
 
