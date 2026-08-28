@@ -65,7 +65,7 @@ Output ONLY a valid JSON object matching the following structure:
 
 """
     response = client.chat.completions.parse(
-        model=MODEL_NAME_QWEN,
+        model=MODEL_NAME_GEMMA,
         messages=[{"role": "user", "content": prompt}],
         response_format=CitationLabel,
     )
@@ -86,14 +86,15 @@ def build_sentence_citation_labels(start_question: int,
             topic_id = item.get("topic_id", "")
             topic = item.get("topic", "")
             question = item.get("question", "")
+            references = item.get("references", [])
 
             #Every sentence in the response sentences
             for sentence_entry in tqdm(item.get("response_sentences", []), desc="Sentences"):
                 sentence_text = sentence_entry.get("text", "").strip()
 
-                citations = sentence_entry.get("citations", [])
+                #citations = sentence_entry.get("citations", [])
 
-                for citation in citations:
+                for citation in references:
                     citation_uri = str(citation)
                     abstract = articles_by_uri.get(citation_uri)
                     if abstract is None:
@@ -120,7 +121,7 @@ def build_sentence_citation_labels(start_question: int,
 
 
 def main() -> None:
-    rows = build_sentence_citation_labels(0, 10)
+    rows = build_sentence_citation_labels(0, 30)
     print(f"Wrote {len(rows)} sentence-citation labels to {OUTPUT_PATH}")
 
 
