@@ -179,7 +179,7 @@ def build_unused_citation_labels(
 
 
 def main() -> None:
-    rows = build_unused_citation_labels()
+    rows = build_unused_citation_labels(0, 30)
     print(
         f"Wrote {len(rows)} unused-citation labels to {OUTPUT_PATH} "
         f"(unused citations are references not present in the final answer)"
