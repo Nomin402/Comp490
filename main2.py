@@ -42,6 +42,20 @@ def extract_final_answer_citations(final_answer_with_citations: str) -> set[str]
     return citation_ids
 
 
+def extract_used_citations(item: dict) -> set[str]:
+    used_citations = extract_final_answer_citations(item.get("final_answer_with_citations", ""))
+    if used_citations:
+        return used_citations
+
+    fallback_citations: set[str] = set()
+    for sentence_entry in item.get("response_sentences", []):
+        for citation in sentence_entry.get("citations", []):
+            citation_id = str(citation).strip()
+            if citation_id:
+                fallback_citations.add(citation_id)
+    return fallback_citations
+
+
 def get_label(answer: str, abstract: str) -> CitationLabel:
     prompt = f"""
 System: You are an expert biomedical researcher and clinical NLP evaluator. Your task is to determine whether a retrieved abstract provides evidence relevant to the generated answer.
@@ -80,36 +94,48 @@ Output ONLY a valid JSON object matching the following structure:
     return response.choices[0].message.parsed
 
 
-def build_unused_citation_labels(start_question: int, end_question: int) -> list[dict]:
+def build_unused_citation_labels(
+    start_question: int = 0,
+    end_question: int | None = None,
+) -> list[dict]:
     articles_by_uri = load_articles_by_uri(ARTICLES_PATH)
 
     with ANSWERS_PATH.open("r") as f:
         items = json.load(f)
 
     rows: list[dict] = []
+    total_references = 0
+    used_references = 0
+    unused_references = 0
+
+    selected_items = items[start_question:end_question] if end_question is not None else items[start_question:]
 
     with jsonlines.open(OUTPUT_PATH, mode="a") as writer:
         for item in tqdm(
-            items[start_question:end_question],
-            total=end_question - start_question,
+            selected_items,
+            total=len(selected_items),
             desc="Questions",
         ):
             topic_id = item.get("topic_id", "")
             topic = item.get("topic", "")
             question = item.get("question", "")
             generated_answer = item.get("final_answer_text", "")
-            final_answer_with_citations = item.get("final_answer_with_citations", "")
-            used_citations = extract_final_answer_citations(final_answer_with_citations)
+            used_citations = extract_used_citations(item)
             references = item.get("references", [])
+
+            total_references += len(references)
 
             for citation in references:
                 citation_uri = str(citation)
                 if citation_uri in used_citations:
+                    used_references += 1
                     continue
 
                 abstract = articles_by_uri.get(citation_uri)
                 if abstract is None:
                     continue
+
+                unused_references += 1
 
                 parsed = get_label(
                     answer=generated_answer,
@@ -129,12 +155,21 @@ def build_unused_citation_labels(start_question: int, end_question: int) -> list
                 writer.write(annotation)
                 rows.append(annotation)
 
+    print(
+        f"Evaluated {total_references} retrieved citations; "
+        f"{used_references} were already used in the final answer; "
+        f"{unused_references} were labeled as unused citations."
+    )
+
     return rows
 
 
 def main() -> None:
-    rows = build_unused_citation_labels(0, 30)
-    print(f"Wrote {len(rows)} unused-citation labels to {OUTPUT_PATH}")
+    rows = build_unused_citation_labels()
+    print(
+        f"Wrote {len(rows)} unused-citation labels to {OUTPUT_PATH} "
+        f"(unused citations are references not present in the final answer)"
+    )
 
 
 if __name__ == "__main__":
