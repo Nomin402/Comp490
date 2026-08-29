@@ -95,52 +95,70 @@ Output ONLY a valid JSON object matching the following structure:
 
 
 def build_unused_citation_labels(
-    start_question: int = 0,
-    end_question: int | None = None,
+    start_question: int,
+    end_question: int,
 ) -> list[dict]:
-    articles_by_uri = load_articles_by_uri(ARTICLES_PATH)
+    
+    # Load all retrieved articles
+    with ARTICLES_PATH.open("r") as f:
+        articles = json.load(f)
 
+    # Load generated answers
     with ANSWERS_PATH.open("r") as f:
         items = json.load(f)
 
     rows: list[dict] = []
-    total_references = 0
-    used_references = 0
-    unused_references = 0
-
-    selected_items = items[start_question:end_question] if end_question is not None else items[start_question:]
 
     with jsonlines.open(OUTPUT_PATH, mode="a") as writer:
+
+        # Process selected questions
         for item in tqdm(
-            selected_items,
-            total=len(selected_items),
+            items[start_question:end_question],
+            total=end_question - start_question,
             desc="Questions",
         ):
-            topic_id = item.get("topic_id", "")
+            topic_id = str(item.get("topic_id", ""))
             topic = item.get("topic", "")
             question = item.get("question", "")
             generated_answer = item.get("final_answer_text", "")
-            used_citations = extract_used_citations(item)
-            references = item.get("references", [])
 
-            total_references += len(references)
+            # These are the citations that were retrieved for this question
+            references = {
+                str(citation).strip()
+                for citation in item.get("references", [])
+            }
 
-            for citation in references:
-                citation_uri = str(citation)
-                if citation_uri in used_citations:
-                    used_references += 1
+            print(
+                f"\nTopic {topic_id}: "
+                f"{len(references)} citations used/retrieved in references"
+            )
+
+            # Look at ALL articles belonging to this topic
+            for article in articles:
+
+                article_topic_id = str(article.get("topic_id", ""))
+
+                # Only consider articles for this topic
+                if article_topic_id != topic_id:
                     continue
 
-                abstract = articles_by_uri.get(citation_uri)
-                if abstract is None:
+                citation_uri = str(article.get("uri", "")).strip()
+
+                # EXCLUDE citations that are already in references
+                if citation_uri in references:
                     continue
 
-                unused_references += 1
+                abstract = article.get("answer", "")
 
+                if not abstract:
+                    continue
+
+                # Label the unused citation
                 parsed = get_label(
                     answer=generated_answer,
                     abstract=abstract,
                 )
+
                 annotation = {
                     "topic_id": topic_id,
                     "topic": topic,
@@ -152,16 +170,12 @@ def build_unused_citation_labels(
                     "label": parsed.label,
                     "used_in_final_answer": False,
                 }
+
                 writer.write(annotation)
                 rows.append(annotation)
 
-    print(
-        f"Evaluated {total_references} retrieved citations; "
-        f"{used_references} were already used in the final answer; "
-        f"{unused_references} were labeled as unused citations."
-    )
-
     return rows
+
 
 
 def main() -> None:
